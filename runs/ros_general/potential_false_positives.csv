@@ -1,0 +1,2069 @@
+title,summary,authors,published,updated,url,pdf_url,matched_query,year
+Equivariant Filter Design for Range-only SLAM,"Range-only Simultaneous Localisation and Mapping (RO-SLAM) is of interest due
+to its practical applications in ultra-wideband (UWB) and Bluetooth Low Energy
+(BLE) localisation in terrestrial and aerial applications and acoustic beacon
+localisation in submarine applications. In this work, we consider a mobile
+robot equipped with an inertial measurement unit (IMU) and a range sensor that
+measures distances to a collection of fixed landmarks. We derive an equivariant
+filter (EqF) for the RO-SLAM problem based on a symmetry Lie group that is
+compatible with the range measurements. The proposed filter does not require
+bootstrapping or initialisation of landmark positions, and demonstrates
+robustness to the no-prior situation. The filter is demonstrated on a
+real-world dataset, and it is shown to significantly outperform a
+state-of-the-art EKF alternative in terms of both accuracy and robustness.","Yixiao Ge, Arthur Pearce, Pieter van Goor, Robert Mahony",2025-03-05T23:48:32Z,2025-03-05T23:48:32Z,http://arxiv.org/abs/2503.03973v1,http://arxiv.org/pdf/2503.03973v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2025
+SODA: a Soft Origami Dynamic utensil for Assisted feeding,"SODA aims to revolutionize assistive feeding systems by designing a
+multi-purpose utensil using origami-inspired artificial muscles. Traditional
+utensils, such as forks and spoons,are hard and stiff, causing discomfort and
+fear among users, especially when operated by autonomous robotic arms.
+Additionally, these systems require frequent utensil changes to handle
+different food types. Our innovative utensil design addresses these issues by
+offering a versatile, adaptive solution that can seamlessly transition between
+gripping and scooping various foods without the need for manual intervention.
+Utilizing the flexibility and strength of origami-inspired artificial muscles,
+the utensil ensures safe and comfortable interactions, enhancing user
+experience and efficiency. This approach not only simplifies the feeding
+process but also promotes greater independence for individuals with limited
+mobility, contributing to the advancement of soft robotics in healthcare
+applications.","Yuxin Ray Song, Shufan Wang",2024-10-25T13:42:03Z,2024-10-25T13:42:03Z,http://arxiv.org/abs/2410.19558v1,http://arxiv.org/pdf/2410.19558v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+A Soft Robotic Exosuit For Knee Extension Using Hyper-Bending Actuators,"Movement disorders impact muscle strength and mobility, and despite
+therapeutic efforts, many people with movement disorders have challenges
+functioning independently. Soft wearable robots, or exosuits, offer a promising
+solution for continuous daily support, however, commercially viable devices are
+not widely available. Here, we introduce a design framework for lower limb
+exosuits centered on a soft pneumatically driven fabric-based actuator. Our
+design consists of a novel multi-material textile sleeve that incorporates
+braided mesh and knit-elastic materials to realize hyper-bending actuators. The
+actuators incorporate 3D-printed self-sealing end caps that are attached to a
+semi-rigid human-robot interface to secure them to the body. We will
+demonstrate the effectiveness of our exosuit in generating enough force to
+assist during sit-to-stand transitions.","Tuo Liu, Jonathan Realmuto",2024-09-19T00:12:29Z,2024-09-19T00:12:29Z,http://arxiv.org/abs/2410.02802v1,http://arxiv.org/pdf/2410.02802v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"Investigating Mixed Reality for Communication Between Humans and Mobile
+  Manipulators","This article investigates mixed reality (MR) to enhance human-robot
+collaboration (HRC). The proposed solution adopts MR as a communication layer
+to convey a mobile manipulator's intentions and upcoming actions to the humans
+with whom it interacts, thus improving their collaboration. A user study
+involving 20 participants demonstrated the effectiveness of this MR-focused
+approach in facilitating collaborative tasks, with a positive effect on overall
+collaboration performances and human satisfaction.","Mohamad Shaaban, Simone Macci`o, Alessandro Carf`ı, Fulvio Mastrogiovanni",2024-09-03T21:50:55Z,2024-09-03T21:50:55Z,http://arxiv.org/abs/2409.02312v1,http://arxiv.org/pdf/2409.02312v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+A Mini-Review on Mobile Manipulators with Variable Autonomy,"This paper presents a mini-review of the current state of research in mobile
+manipulators with variable levels of autonomy, emphasizing their associated
+challenges and application environments. The need for mobile manipulators in
+different environments is evident due to the unique challenges and risks each
+presents. Many systems deployed in these environments are not fully autonomous,
+requiring human-robot teaming to ensure safe and reliable operations under
+uncertainties. Through this analysis, we identify gaps and challenges in the
+literature on Variable Autonomy, including cognitive workload and communication
+delays, and propose future directions, including whole-body Variable Autonomy
+for mobile manipulators, virtual reality frameworks, and large language models
+to reduce operators' complexity and cognitive load in some challenging and
+uncertain scenarios.","Cesar Alan Contreras, Alireza Rastegarpanah, Rustam Stolkin, Manolis Chiou",2024-08-20T14:18:35Z,2024-08-20T14:18:35Z,http://arxiv.org/abs/2408.10887v1,http://arxiv.org/pdf/2408.10887v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"Person Transfer in the Field: Examining Real World Sequential
+  Human-Robot Interaction Between Two Robots","With more robots being deployed in the world, users will likely interact with
+multiple robots sequentially when receiving services. In this paper, we
+describe an exploratory field study in which unsuspecting participants
+experienced a ``person transfer'' -- a scenario in which they first interacted
+with one stationary robot before another mobile robot joined to complete the
+interaction. In our 7-hour study spanning 4 days, we recorded 18 instances of
+person transfers with 40+ individuals. We also interviewed 11 participants
+after the interaction to further understand their experience. We used the
+recorded video and interview data to extract interesting insights about
+in-the-field sequential human-robot interaction, such as mobile robot
+handovers, trust in person transfer, and the importance of the robots'
+positions. Our findings expose pitfalls and present important factors to
+consider when designing sequential human-robot interaction.","Xiang Zhi Tan, Elizabeth J. Carter, Aaron Steinfeld",2024-06-11T02:59:34Z,2024-06-11T02:59:34Z,http://arxiv.org/abs/2406.06904v1,http://arxiv.org/pdf/2406.06904v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"Advancing Behavior Generation in Mobile Robotics through High-Fidelity
+  Procedural Simulations","This paper introduces YamaS, a simulator integrating Unity3D Engine with
+Robotic Operating System for robot navigation research and aims to facilitate
+the development of both Deep Reinforcement Learning (Deep-RL) and Natural
+Language Processing (NLP). It supports single and multi-agent configurations
+with features like procedural environment generation, RGB vision, and dynamic
+obstacle navigation. Unique to YamaS is its ability to construct single and
+multi-agent environments, as well as generating agent's behaviour through
+textual descriptions. The simulator's fidelity is underscored by comparisons
+with the real-world Yamabiko Beego robot, demonstrating high accuracy in sensor
+simulations and spatial reasoning. Moreover, YamaS integrates Virtual Reality
+(VR) to augment Human-Robot Interaction (HRI) studies, providing an immersive
+platform for developers and researchers. This fusion establishes YamaS as a
+versatile and valuable tool for the development and testing of autonomous
+systems, contributing to the fields of robot simulation and AI-driven training
+methodologies.","Victor A. Kich, Jair A. Bottega, Raul Steinmetz, Ricardo B. Grando, Ayanori Yorozu, Akihisa Ohya",2024-05-27T04:31:55Z,2024-05-27T04:31:55Z,http://arxiv.org/abs/2405.16818v1,http://arxiv.org/pdf/2405.16818v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"Localization and Perception for Control of a Low Speed Autonomous
+  Shuttle in a Campus Pilot Deployment","Future SAE Level 4 and Level 5 autonomous vehicles will require novel
+applications of localization, perception, control and artificial intelligence
+technology in order to offer innovative and disruptive solutions to current
+mobility problems. Accurate localization is essential for self driving vehicle
+navigation in GPS inaccessible environments. This thesis concentrates on low
+speed autonomous shuttles that are mainly utilized for university campus
+intelligent transportation systems and presents initial results of ongoing work
+on developing solutions to the localization and perception challenges of a
+university planned pilot deployment orientated application. The paper treats
+autonomous driving with real time kinematics GPS (Global Positioning Systems)
+with an inertial measurement unit (IMU), combined with simultaneous
+localization and mapping (SLAM) with threedimensional light detection and
+ranging (LIDAR) sensor, which provides solutions to scenarios where GPS is not
+available or a lower cost and hence lower accuracy GPS is desirable. The
+in-house automated low speed electric vehicle from the Automated Driving Lab is
+used in experimental evaluation and verification. An improved version of Hector
+SLAM was implemented on ROS and compared with high resolution GPS aided
+localization framework in the same hardware architecture. The overall
+configuration that combines ROS with DSpace controller can be easily
+transplantable prototype in other hardware architectures for future similar
+research. Real-world experiments that are reported here have been conducted in
+a small test area close to the Ohio State University AV pilot test route. are
+used for demonstrating the feasibility and robustness of this approach to
+developing and evaluating low speed autonomous shuttle localization and
+perception algorithms for control and decision making.",Bowen Wen,2024-04-02T21:38:39Z,2024-04-02T21:38:39Z,http://arxiv.org/abs/2407.00820v1,http://arxiv.org/pdf/2407.00820v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"CARLOS: An Open, Modular, and Scalable Simulation Framework for the
+  Development and Testing of Software for C-ITS","Future mobility systems and their components are increasingly defined by
+their software. The complexity of these cooperative intelligent transport
+systems (C-ITS) and the everchanging requirements posed at the software require
+continual software updates. The dynamic nature of the system and the
+practically innumerable scenarios in which different software components work
+together necessitate efficient and automated development and testing procedures
+that use simulations as one core methodology. The availability of such
+simulation architectures is a common interest among many stakeholders,
+especially in the field of automated driving. That is why we propose CARLOS -
+an open, modular, and scalable simulation framework for the development and
+testing of software in C-ITS that leverages the rich CARLA and ROS ecosystems.
+We provide core building blocks for this framework and explain how it can be
+used and extended by the community. Its architecture builds upon modern
+microservice and DevOps principles such as containerization and continuous
+integration. In our paper, we motivate the architecture by describing important
+design principles and showcasing three major use cases - software prototyping,
+data-driven development, and automated testing. We make CARLOS and example
+implementations of the three use cases publicly available at
+github.com/ika-rwth-aachen/carlos","Christian Geller, Benedikt Haas, Amarin Kloeker, Jona Hermens, Bastian Lampe, Till Beemelmanns, Lutz Eckstein",2024-04-02T10:48:36Z,2024-04-19T13:48:59Z,http://arxiv.org/abs/2404.01836v3,http://arxiv.org/pdf/2404.01836v3.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"RHINO-VR Experience: Teaching Mobile Robotics Concepts in an Interactive
+  Museum Exhibit","In 1997, the very first tour guide robot RHINO was deployed in a museum in
+Germany. With the ability to navigate autonomously through the environment, the
+robot gave tours to over 2,000 visitors. Today, RHINO itself has become an
+exhibit and is no longer operational. In this paper, we present RHINO-VR, an
+interactive museum exhibit using virtual reality (VR) that allows museum
+visitors to experience the historical robot RHINO in operation in a virtual
+museum. RHINO-VR, unlike static exhibits, enables users to familiarize
+themselves with basic mobile robotics concepts without the fear of damaging the
+exhibit. In the virtual environment, the user is able to interact with RHINO in
+VR by pointing to a location to which the robot should navigate and observing
+the corresponding actions of the robot. To include other visitors who cannot
+use the VR, we provide an external observation view to make RHINO visible to
+them. We evaluated our system by measuring the frame rate of the VR simulation,
+comparing the generated virtual 3D models with the originals, and conducting a
+user study. The user-study showed that RHINO-VR improved the visitors'
+understanding of the robot's functionality and that they would recommend
+experiencing the VR exhibit to others.","Erik Schlachhoff, Nils Dengler, Leif Van Holland, Patrick Stotko, Jorge de Heuvel, Reinhard Klein, Maren Bennewitz",2024-03-22T12:07:03Z,2024-06-10T13:22:41Z,http://arxiv.org/abs/2403.15151v2,http://arxiv.org/pdf/2403.15151v2.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"Magnetic polarons beyond linear spin-wave theory: Mesons dressed by
+  magnons","When a mobile hole is doped into an antiferromagnet, its movement will
+distort the surrounding magnetic order and yield a magnetic polaron. The
+resulting complex interplay of spin and charge degrees of freedom gives rise to
+very rich physics and is widely believed to be at the heart of high-temperature
+superconductivity in cuprates. In this paper, we develop a quantitative
+theoretical formalism, based on the phenomenological parton description, to
+describe magnetic polarons in the strong coupling regime. We construct an
+effective Hamiltonian with weak coupling to the spin-wave excitations in the
+background, making the use of standard polaronic methods possible. Our starting
+point is a single hole doped into an AFM described by a 'geometric string'
+capturing the strongly correlated hopping processes of charge and spin degrees
+of freedom, beyond linear spin-wave approximation. Subsequently, we introduce
+magnon excitations through a generalized 1/S expansion and derive an effective
+coupling of these spin-waves to the hole plus the string (the meson) to arrive
+at an effective polaron Hamiltonian with density-density type interactions.
+After making a Born-Oppenheimer-type approximation, this system is solved using
+the self-consistent Born approximation to extract the renormalized polaron
+properties. We apply our formalism (i) to calculate beyond linear spin-wave
+ARPES spectra, (ii) to reveal the interplay of ro-vibrational meson
+excitations, and (ii) to analyze the pseudogap expected at low doping.
+Moreover, our work paves the way for exploring magnetic polarons out-of
+equilibrium or in frustrated systems, where weak-coupling approaches are
+desirable and going beyond linear spin-wave theory becomes necessary.","Pit Bermes, Annabelle Bohrdt, Fabian Grusdt",2024-01-31T19:14:17Z,2024-01-31T19:14:17Z,http://arxiv.org/abs/2402.00130v1,http://arxiv.org/pdf/2402.00130v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+SHViT: Single-Head Vision Transformer with Memory Efficient Macro Design,"Recently, efficient Vision Transformers have shown great performance with low
+latency on resource-constrained devices. Conventionally, they use 4x4 patch
+embeddings and a 4-stage structure at the macro level, while utilizing
+sophisticated attention with multi-head configuration at the micro level. This
+paper aims to address computational redundancy at all design levels in a
+memory-efficient manner. We discover that using larger-stride patchify stem not
+only reduces memory access costs but also achieves competitive performance by
+leveraging token representations with reduced spatial redundancy from the early
+stages. Furthermore, our preliminary analyses suggest that attention layers in
+the early stages can be substituted with convolutions, and several attention
+heads in the latter stages are computationally redundant. To handle this, we
+introduce a single-head attention module that inherently prevents head
+redundancy and simultaneously boosts accuracy by parallelly combining global
+and local information. Building upon our solutions, we introduce SHViT, a
+Single-Head Vision Transformer that obtains the state-of-the-art speed-accuracy
+tradeoff. For example, on ImageNet-1k, our SHViT-S4 is 3.3x, 8.1x, and 2.4x
+faster than MobileViTv2 x1.0 on GPU, CPU, and iPhone12 mobile device,
+respectively, while being 1.3% more accurate. For object detection and instance
+segmentation on MS COCO using Mask-RCNN head, our model achieves performance
+comparable to FastViT-SA12 while exhibiting 3.8x and 2.0x lower backbone
+latency on GPU and mobile device, respectively.","Seokju Yun, Youngmin Ro",2024-01-29T09:12:23Z,2024-03-27T04:14:59Z,http://arxiv.org/abs/2401.16456v2,http://arxiv.org/pdf/2401.16456v2.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2024
+"The Otbot project: Dynamic modelling, parameter identification, and
+  motion control of an omnidirectional tire-wheeled robot","In recent years, autonomous mobile platforms are finding an increasing range
+of applications in inspection or surveillance tasks, or to the transport of
+objects, in places such as smart warehouses, factories or hospitals. In these
+environments it is useful for the robot to have omnidirectional capability in
+the plane, so it can navigate through narrow or cluttered areas, or make
+position and orientation changes without having to maneuver. While this
+capability is usually achieved with directional sliding wheels, this work
+studies a particular robot that achieves omnidirectionality using conventional
+wheels, which are easier to manufacture and maintain, and support larger loads
+in general. This robot, which we call ``Otbot'' (for omnidirectional
+tire-wheeled robot), was already conceived in the late 1990s, but all the
+controllers that have been proposed for it are based on purely kinematic models
+so far. These controllers may be sufficient if the robot is light, or if its
+motors are powerful, but on platforms that have to carry large loads, or that
+have more limited motors, it is necessary to resort to control laws based on
+dynamic models if the full acceleration capacities are to be exploited. This
+work develops a dynamic model of Otbot, proposes a plausible methodology to
+identify its parameters, and designs a control law that, using this model, is
+able to track prescribed trajectories in an accurate and robust manner.","Pere Giró, Enric Celaya, Lluís Ros",2023-11-17T19:31:32Z,2023-11-17T19:31:32Z,http://arxiv.org/abs/2311.10834v1,http://arxiv.org/pdf/2311.10834v1.pdf,all:ROS AND all:mobile AND submittedDate:[202309062229 TO 202509052229],2023
+"Privacy Perceptions in Robot-Assisted Well-Being Coaching: Examining the
+  Roles of Information Transparency, User Control, and Proactivity","Social robots are increasingly recognized as valuable supporters in the field
+of well-being coaching. They can function as independent coaches or provide
+support alongside human coaches, and healthcare professionals. In coaching
+interactions, these robots often handle sensitive information shared by users,
+making privacy a relevant issue. Despite this, little is known about the
+factors that shape users' privacy perceptions. This research aims to examine
+three key factors systematically: (1) the transparency about information usage,
+(2) the level of specific user control over how the robot uses their
+information, and (3) the robot's behavioral approach - whether it acts
+proactively or only responds on demand. Our results from an online study (N =
+200) show that even when users grant the robot general access to personal data,
+they additionally expect the ability to explicitly control how that information
+is interpreted and shared during sessions. Experimental conditions that
+provided such control received significantly higher ratings for perceived
+privacy appropriateness and trust. Compared to user control, the effects of
+transparency and proactivity on privacy appropriateness perception were low,
+and we found no significant impact. The results suggest that merely informing
+users or proactive sharing is insufficient without accompanying user control.
+These insights underscore the need for further research on mechanisms that
+allow users to manage robots' information processing and sharing, especially
+when social robots take on more proactive roles alongside humans.","Atikkhan Faridkhan Nilgar, Manuel Dietrich, Kristof Van Laerhoven",2025-09-04T16:19:24Z,2025-09-04T16:19:24Z,http://arxiv.org/abs/2509.04358v1,http://arxiv.org/pdf/2509.04358v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Analyzing Reluctance to Ask for Help When Cooperating With Robots:
+  Insights to Integrate Artificial Agents in HRC","As robot technology advances, collaboration between humans and robots will
+become more prevalent in industrial tasks. When humans run into issues in such
+scenarios, a likely future involves relying on artificial agents or robots for
+aid. This study identifies key aspects for the design of future user-assisting
+agents. We analyze quantitative and qualitative data from a user study
+examining the impact of on-demand assistance received from a remote human in a
+human-robot collaboration (HRC) assembly task. We study scenarios in which
+users require help and we assess their experiences in requesting and receiving
+assistance. Additionally, we investigate participants' perceptions of future
+non-human assisting agents and whether assistance should be on-demand or
+unsolicited. Through a user study, we analyze the impact that such design
+decisions (human or artificial assistant, on-demand or unsolicited help) can
+have on elicited emotional responses, productivity, and preferences of humans
+engaged in HRC tasks.","Ane San Martin, Michael Hagenow, Julie Shah, Johan Kildal, Elena Lazkano",2025-09-01T13:08:09Z,2025-09-01T13:08:09Z,http://arxiv.org/abs/2509.01450v1,http://arxiv.org/pdf/2509.01450v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Context-Aware Risk Estimation in Home Environments: A Probabilistic
+  Framework for Service Robots","We present a novel framework for estimating accident-prone regions in
+everyday indoor scenes, aimed at improving real-time risk awareness in service
+robots operating in human-centric environments. As robots become integrated
+into daily life, particularly in homes, the ability to anticipate and respond
+to environmental hazards is crucial for ensuring user safety, trust, and
+effective human-robot interaction. Our approach models object-level risk and
+context through a semantic graph-based propagation algorithm. Each object is
+represented as a node with an associated risk score, and risk propagates
+asymmetrically from high-risk to low-risk objects based on spatial proximity
+and accident relationship. This enables the robot to infer potential hazards
+even when they are not explicitly visible or labeled. Designed for
+interpretability and lightweight onboard deployment, our method is validated on
+a dataset with human-annotated risk regions, achieving a binary risk detection
+accuracy of 75%. The system demonstrates strong alignment with human
+perception, particularly in scenes involving sharp or unstable objects. These
+results underline the potential of context-aware risk reasoning to enhance
+robotic scene understanding and proactive safety behaviors in shared
+human-robot spaces. This framework could serve as a foundation for future
+systems that make context-driven safety decisions, provide real-time alerts, or
+autonomously assist users in avoiding or mitigating hazards within home
+environments.","Sena Ishii, Akash Chikhalikar, Ankit A. Ravankar, Jose Victorio Salazar Luces, Yasuhisa Hirata",2025-08-27T11:14:05Z,2025-08-27T11:14:05Z,http://arxiv.org/abs/2508.19788v1,http://arxiv.org/pdf/2508.19788v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Integration of Computer Vision with Adaptive Control for Autonomous
+  Driving Using ADORE","Ensuring safety in autonomous driving requires a seamless integration of
+perception and decision making under uncertain conditions. Although computer
+vision (CV) models such as YOLO achieve high accuracy in detecting traffic
+signs and obstacles, their performance degrades in drift scenarios caused by
+weather variations or unseen objects. This work presents a simulated autonomous
+driving system that combines a context aware CV model with adaptive control
+using the ADORE framework. The CARLA simulator was integrated with ADORE via
+the ROS bridge, allowing real-time communication between perception, decision,
+and control modules. A simulated test case was designed in both clear and drift
+weather conditions to demonstrate the robust detection performance of the
+perception model while ADORE successfully adapted vehicle behavior to speed
+limits and obstacles with low response latency. The findings highlight the
+potential of coupling deep learning-based perception with rule-based adaptive
+decision making to improve automotive safety critical system.","Abu Shad Ahammed, Md Shahi Amran Hossain, Sayeri Mukherjee, Roman Obermaisser, Md. Ziaur Rahman",2025-08-25T12:55:30Z,2025-09-02T19:01:33Z,http://arxiv.org/abs/2508.17985v2,http://arxiv.org/pdf/2508.17985v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"A Rapid Iterative Trajectory Planning Method for Automated Parking
+  through Differential Flatness","As autonomous driving continues to advance, automated parking is becoming
+increasingly essential. However, significant challenges arise when implementing
+path velocity decomposition (PVD) trajectory planning for automated parking.
+The primary challenge is ensuring rapid and precise collision-free trajectory
+planning, which is often in conflict. The secondary challenge involves
+maintaining sufficient control feasibility of the planned trajectory,
+particularly at gear shifting points (GSP). This paper proposes a PVD-based
+rapid iterative trajectory planning (RITP) method to solve the above
+challenges. The proposed method effectively balances the necessity for time
+efficiency and precise collision avoidance through a novel collision avoidance
+framework. Moreover, it enhances the overall control feasibility of the planned
+trajectory by incorporating the vehicle kinematics model and including terminal
+smoothing constraints (TSC) at GSP during path planning. Specifically, the
+proposed method leverages differential flatness to ensure the planned path
+adheres to the vehicle kinematic model. Additionally, it utilizes TSC to
+maintain curvature continuity at GSP, thereby enhancing the control feasibility
+of the overall trajectory. The simulation results demonstrate superior time
+efficiency and tracking errors compared to model-integrated and other
+iteration-based trajectory planning methods. In the real-world experiment, the
+proposed method was implemented and validated on a ROS-based vehicle,
+demonstrating the applicability of the RITP method for real vehicles.","Zhouheng Li, Lei Xie, Cheng Hu, Hongye Su",2025-08-23T14:36:48Z,2025-08-23T14:36:48Z,http://arxiv.org/abs/2508.17038v1,http://arxiv.org/pdf/2508.17038v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"RoboBuddy in the Classroom: Exploring LLM-Powered Social Robots for
+  Storytelling in Learning and Integration Activities","Creating and improvising scenarios for content approaching is an enriching
+technique in education. However, it comes with a significant increase in the
+time spent on its planning, which intensifies when using complex technologies,
+such as social robots. Furthermore, addressing multicultural integration is
+commonly embedded in regular activities due to the already tight curriculum.
+Addressing these issues with a single solution, we implemented an intuitive
+interface that allows teachers to create scenario-based activities from their
+regular curriculum using LLMs and social robots. We co-designed different
+frameworks of activities with 4 teachers and deployed it in a study with 27
+students for 1 week. Beyond validating the system's efficacy, our findings
+highlight the positive impact of integration policies perceived by the children
+and demonstrate the importance of scenario-based activities in students'
+enjoyment, observed to be significantly higher when applying storytelling.
+Additionally, several implications of using LLMs and social robots in long-term
+classroom activities are discussed.","Daniel Tozadore, Nur Ertug, Yasmine Chaker, Mortadha Abderrahim",2025-08-22T13:14:09Z,2025-08-22T13:14:09Z,http://arxiv.org/abs/2508.16706v1,http://arxiv.org/pdf/2508.16706v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Take That for Me: Multimodal Exophora Resolution with Interactive
+  Questioning for Ambiguous Out-of-View Instructions","Daily life support robots must interpret ambiguous verbal instructions
+involving demonstratives such as ``Bring me that cup,'' even when objects or
+users are out of the robot's view. Existing approaches to exophora resolution
+primarily rely on visual data and thus fail in real-world scenarios where the
+object or user is not visible. We propose Multimodal Interactive Exophora
+resolution with user Localization (MIEL), which is a multimodal exophora
+resolution framework leveraging sound source localization (SSL), semantic
+mapping, visual-language models (VLMs), and interactive questioning with
+GPT-4o. Our approach first constructs a semantic map of the environment and
+estimates candidate objects from a linguistic query with the user's skeletal
+data. SSL is utilized to orient the robot toward users who are initially
+outside its visual field, enabling accurate identification of user gestures and
+pointing directions. When ambiguities remain, the robot proactively interacts
+with the user, employing GPT-4o to formulate clarifying questions. Experiments
+in a real-world environment showed results that were approximately 1.3 times
+better when the user was visible to the robot and 2.0 times better when the
+user was not visible to the robot, compared to the methods without SSL and
+interactive questioning. The project website is
+https://emergentsystemlabstudent.github.io/MIEL/.","Akira Oyama, Shoichi Hasegawa, Akira Taniguchi, Yoshinobu Hagiwara, Tadahiro Taniguchi",2025-08-22T07:09:06Z,2025-08-22T07:09:06Z,http://arxiv.org/abs/2508.16143v1,http://arxiv.org/pdf/2508.16143v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Toward an Interaction-Centered Approach to Robot Trustworthiness,"As robots get more integrated into human environments, fostering
+trustworthiness in embodied robotic agents becomes paramount for an effective
+and safe human-robot interaction (HRI). To achieve that, HRI applications must
+promote human trust that aligns with robot skills and avoid misplaced trust or
+overtrust, which can pose safety risks and ethical concerns. To achieve that,
+HRI applications must promote human trust that aligns with robot skills and
+avoid misplaced trust or overtrust, which can pose safety risks and ethical
+concerns. In this position paper, we outline an interaction-based framework for
+building trust through mutual understanding between humans and robots. We
+emphasize two main pillars: human awareness and transparency, referring to the
+robot ability to interpret human actions accurately and to clearly communicate
+its intentions and goals, respectively. By integrating these two pillars,
+robots can behave in a manner that aligns with human expectations and needs
+while providing their human partners with both comprehension and control over
+their actions. We also introduce four components that we think are important
+for bridging the gap between a human-perceived sense of trust and a robot true
+capabilities.","Carlo Mazzola, Hassan Ali, Kristína Malinovská, Igor Farkaš",2025-08-19T16:13:33Z,2025-08-19T16:13:33Z,http://arxiv.org/abs/2508.13976v1,http://arxiv.org/pdf/2508.13976v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Insights from Interviews with Teachers and Students on the Use of a
+  Social Robot in Computer Science Class in Sixth Grade","In this paper we report on first insights from interviews with teachers and
+students on using social robots in computer science class in sixth grade. Our
+focus is on learning about requirements and potential applications. We are
+particularly interested in getting both perspectives, the teachers' and the
+learners' view on how robots could be used and what features they should or
+should not have. Results show that teachers as well as students are very open
+to robots in the classroom. However, requirements are partially quite
+heterogeneous among the groups. This leads to complex design challenges which
+we discuss at the end of this paper.","Ann-Sophie L. Schenk, Stefan Schiffer, Heqiu Song",2025-08-18T14:22:28Z,2025-08-19T11:08:27Z,http://arxiv.org/abs/2508.12946v2,http://arxiv.org/pdf/2508.12946v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Implementation and evaluation of a prediction algorithm for an
+  autonomous vehicle","This paper presents a prediction algorithm that estimates the vehicle
+trajectory every five milliseconds for an autonomous vehicle. A kinematic and a
+dynamic bicycle model are compared, with the dynamic model exhibiting superior
+accuracy at higher speeds. Vehicle parameters such as mass, center of gravity,
+moment of inertia, and cornering stiffness are determined experimentally. For
+cornering stiffness, a novel measurement procedure using optical position
+tracking is introduced. The model is incorporated into an extended Kalman
+filter and implemented in a ROS node in C++. The algorithm achieves a
+positional deviation of only 1.25 cm per meter over the entire test drive and
+is up to 82.6% more precise than the kinematic model.",Marco Leon Rapp,2025-08-17T10:02:14Z,2025-08-17T10:02:14Z,http://arxiv.org/abs/2508.12312v1,http://arxiv.org/pdf/2508.12312v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Into the Wild: When Robots Are Not Welcome,"Social robots are increasingly being deployed in public spaces, where they
+face not only technological difficulties and unexpected user utterances, but
+also objections from stakeholders who may not be comfortable with introducing a
+robot into those spaces. We describe our difficulties with deploying a social
+robot in two different public settings: 1) Student services center; 2) Refugees
+and asylum seekers drop-in service. Although this is a failure report, in each
+use case we eventually managed to earn the trust of the staff and form a
+relationship with them, allowing us to deploy our robot and conduct our
+studies.","Shaul Ashkenazi, Gabriel Skantze, Jane Stuart-Smith, Mary Ellen Foster",2025-08-16T15:18:17Z,2025-08-20T13:32:18Z,http://arxiv.org/abs/2508.12075v2,http://arxiv.org/pdf/2508.12075v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Swarm-in-Blocks: Simplifying Drone Swarm Programming with Block-Based
+  Language","Swarm in Blocks, originally developed for CopterHack 2022, is a high-level
+interface that simplifies drone swarm programming using a block-based language.
+Building on the Clover platform, this tool enables users to create
+functionalities like loops and conditional structures by assembling code
+blocks. In 2023, we introduced Swarm in Blocks 2.0, further refining the
+platform to address the complexities of swarm management in a user-friendly
+way. As drone swarm applications grow in areas like delivery, agriculture, and
+surveillance, the challenge of managing them, especially for beginners, has
+also increased. The Atena team developed this interface to make swarm handling
+accessible without requiring extensive knowledge of ROS or programming. The
+block-based approach not only simplifies swarm control but also expands
+educational opportunities in programming.","Agnes Bressan de Almeida, Joao Aires Correa Fernandes Marsicano",2025-08-15T14:20:09Z,2025-08-15T14:20:09Z,http://arxiv.org/abs/2508.11498v1,http://arxiv.org/pdf/2508.11498v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Utilizing Vision-Language Models as Action Models for Intent Recognition
+  and Assistance","Human-robot collaboration requires robots to quickly infer user intent,
+provide transparent reasoning, and assist users in achieving their goals. Our
+recent work introduced GUIDER, our framework for inferring navigation and
+manipulation intents. We propose augmenting GUIDER with a vision-language model
+(VLM) and a text-only language model (LLM) to form a semantic prior that
+filters objects and locations based on the mission prompt. A vision pipeline
+(YOLO for object detection and the Segment Anything Model for instance
+segmentation) feeds candidate object crops into the VLM, which scores their
+relevance given an operator prompt; in addition, the list of detected object
+labels is ranked by a text-only LLM. These scores weight the existing
+navigation and manipulation layers of GUIDER, selecting context-relevant
+targets while suppressing unrelated objects. Once the combined belief exceeds a
+threshold, autonomy changes occur, enabling the robot to navigate to the
+desired area and retrieve the desired object, while adapting to any changes in
+the operator's intent. Future work will evaluate the system on Isaac Sim using
+a Franka Emika arm on a Ridgeback base, with a focus on real-time assistance.","Cesar Alan Contreras, Manolis Chiou, Alireza Rastegarpanah, Michal Szulik, Rustam Stolkin",2025-08-14T22:19:09Z,2025-08-14T22:19:09Z,http://arxiv.org/abs/2508.11093v1,http://arxiv.org/pdf/2508.11093v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Observations of atypical users from a pilot deployment of a public-space
+  social robot in a church","Though a goal of HRI is the natural integration of social robots into
+everyday public spaces, real-world studies still occur mostly within controlled
+environments with predetermined participants. True public spaces present an
+environment which is largely unconstrained and unpredictable, frequented by a
+diverse range of people whose goals can often conflict with those of the robot.
+When combined with the general unfamiliarity most people have with social
+robots, this leads to unexpected human-robot interactions in these public
+spaces that are rarely discussed or detected in other contexts. In this paper,
+we describe atypical users we observed interacting with our robot, and those
+who did not, during a three-day pilot deployment within a large working church
+and visitor attraction. We then discuss theoretical future advances in the
+field that could address these challenges, as well as immediate practical
+mitigations and strategies to help improve public space human-robot
+interactions in the present. This work contributes empirical insights into the
+dynamics of human-robot interaction in public environments and offers
+actionable guidance for more effective future deployments for social robot
+designers.","Andrew Blair, Peggy Gregory, Mary Ellen Foster",2025-08-14T07:35:11Z,2025-08-14T07:35:11Z,http://arxiv.org/abs/2508.16622v1,http://arxiv.org/pdf/2508.16622v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"AZRA: Extending the Affective Capabilities of Zoomorphic Robots using
+  Augmented Reality","Zoomorphic robots could serve as accessible and practical alternatives for
+users unable or unwilling to keep pets. However, their affective interactions
+are often simplistic and short-lived, limiting their potential for domestic
+adoption. In order to facilitate more dynamic and nuanced affective
+interactions and relationships between users and zoomorphic robots we present
+AZRA, a novel augmented reality (AR) framework that extends the affective
+capabilities of these robots without physical modifications. To demonstrate
+AZRA, we augment a zoomorphic robot, Petit Qoobo, with novel emotional displays
+(face, light, sound, thought bubbles) and interaction modalities (voice, touch,
+proximity, gaze). Additionally, AZRA features a computational model of emotion
+to calculate the robot's emotional responses, daily moods, evolving personality
+and needs. We highlight how AZRA can be used for rapid participatory
+prototyping and enhancing existing robots, then discuss implications on future
+zoomorphic robot development.","Shaun Macdonald, Salma ElSayed, Mark McGill",2025-08-11T22:39:13Z,2025-08-11T22:39:13Z,http://arxiv.org/abs/2508.08507v1,http://arxiv.org/pdf/2508.08507v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"On the causality between affective impact and coordinated human-robot
+  reactions","In an effort to improve how robots function in social contexts, this paper
+investigates if a robot that actively shares a reaction to an event with a
+human alters how the human perceives the robot's affective impact. To verify
+this, we created two different test setups. One to highlight and isolate the
+reaction element of affective robot expressions, and one to investigate the
+effects of applying specific timing delays to a robot reacting to a physical
+encounter with a human. The first test was conducted with two different groups
+(n=84) of human observers, a test group and a control group both interacting
+with the robot. The second test was performed with 110 participants using
+increasingly longer reaction delays for the robot with every ten participants.
+The results show a statistically significant change (p$<$.05) in perceived
+affective impact for the robots when they react to an event shared with a human
+observer rather than reacting at random. The result also shows for shared
+physical interaction, the near-human reaction times from the robot are most
+appropriate for the scenario. The paper concludes that a delay time around
+200ms may render the biggest impact on human observers for small-sized
+non-humanoid robots. It further concludes that a slightly shorter reaction time
+around 100ms is most effective when the goal is to make the human observers
+feel they made the biggest impact on the robot.","Morten Roed Frederiksen, Kasper Støy",2025-08-06T19:24:04Z,2025-08-06T19:24:04Z,http://arxiv.org/abs/2508.04834v1,http://arxiv.org/pdf/2508.04834v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Towards Multimodal Social Conversations with Robots: Using
+  Vision-Language Models","Large language models have given social robots the ability to autonomously
+engage in open-domain conversations. However, they are still missing a
+fundamental social skill: making use of the multiple modalities that carry
+social interactions. While previous work has focused on task-oriented
+interactions that require referencing the environment or specific phenomena in
+social interactions such as dialogue breakdowns, we outline the overall needs
+of a multimodal system for social conversations with robots. We then argue that
+vision-language models are able to process this wide range of visual
+information in a sufficiently general manner for autonomous social robots. We
+describe how to adapt them to this setting, which technical challenges remain,
+and briefly discuss evaluation practices.","Ruben Janssens, Tony Belpaeme",2025-07-25T12:06:53Z,2025-08-18T16:27:19Z,http://arxiv.org/abs/2507.19196v2,http://arxiv.org/pdf/2507.19196v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Gaze-supported Large Language Model Framework for Bi-directional
+  Human-Robot Interaction","The rapid development of Large Language Models (LLMs) creates an exciting
+potential for flexible, general knowledge-driven Human-Robot Interaction (HRI)
+systems for assistive robots. Existing HRI systems demonstrate great progress
+in interpreting and following user instructions, action generation, and robot
+task solving. On the other hand, bi-directional, multi-modal, and context-aware
+support of the user in collaborative tasks still remains an open challenge. In
+this paper, we present a gaze- and speech-informed interface to the assistive
+robot, which is able to perceive the working environment from multiple vision
+inputs and support the dynamic user in their tasks. Our system is designed to
+be modular and transferable to adapt to diverse tasks and robots, and it is
+capable of real-time use of language-based interaction state representation and
+fast on board perception modules. Its development was supported by multiple
+public dissemination events, contributing important considerations for improved
+robustness and user experience. Furthermore, in two lab studies, we compare the
+performance and user ratings of our system with those of a traditional scripted
+HRI pipeline. Our findings indicate that an LLM-based approach enhances
+adaptability and marginally improves user engagement and task execution metrics
+but may produce redundant output, while a scripted pipeline is well suited for
+more straightforward tasks.","Jens V. Rüppel, Andrey Rudenko, Tim Schreiter, Martin Magnusson, Achim J. Lilienthal",2025-07-21T15:38:25Z,2025-07-21T15:38:25Z,http://arxiv.org/abs/2507.15729v1,http://arxiv.org/pdf/2507.15729v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"In-Home Social Robots Design for Cognitive Stimulation Therapy in
+  Dementia Care","Individual cognitive stimulation therapy (iCST) is a non-pharmacological
+intervention for improving the cognition and quality of life of persons with
+dementia (PwDs); however, its effectiveness is limited by low adherence to
+delivery by their family members. In this work, we present the user-centered
+design and evaluation of a novel socially assistive robotic system to provide
+iCST therapy to PwDs in their homes for long-term use. We consulted with 16
+dementia caregivers and professionals. Through these consultations, we gathered
+design guidelines and developed the prototype. The prototype was validated by
+testing it with three dementia professionals and five PwDs. The evaluation
+revealed PwDs enjoyed using the system and are willing to adopt its use over
+the long term. One shortcoming was the system's speech-to-text capabilities,
+where it frequently failed to understand the PwDs.","Emmanuel Akinrintoyo, Nicole Salomons",2025-07-17T23:48:09Z,2025-07-17T23:48:09Z,http://arxiv.org/abs/2507.13578v1,http://arxiv.org/pdf/2507.13578v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Toward a Full-Stack Co-Simulation Platform for Testing of Automated
+  Driving Systems","Virtual testing has emerged as an effective approach to accelerate the
+deployment of automated driving systems. Nevertheless, existing simulation
+toolchains encounter difficulties in integrating rapid, automated scenario
+generation with simulation environments supporting advanced automated driving
+capabilities. To address this limitation, a full-stack toolchain is presented,
+enabling automatic scenario generation from real-world datasets and efficient
+validation through a co-simulation platform based on CarMaker, ROS, and Apollo.
+The simulation results demonstrate the effectiveness of the proposed toolchain.
+A demonstration video showcasing the toolchain is available at the provided
+link: https://youtu.be/taJw_-CmSiY.","Dong Bi, Yongqi Zhao, Zhengguo Gu, Tomislav Mihalj, Jia Hu, Arno Eichberger",2025-07-09T14:19:58Z,2025-07-09T14:19:58Z,http://arxiv.org/abs/2507.06884v1,http://arxiv.org/pdf/2507.06884v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Integrating Perceptions: A Human-Centered Physical Safety Model for
+  Human-Robot Interaction","Ensuring safety in human-robot interaction (HRI) is essential to foster user
+trust and enable the broader adoption of robotic systems. Traditional safety
+models primarily rely on sensor-based measures, such as relative distance and
+velocity, to assess physical safety. However, these models often fail to
+capture subjective safety perceptions, which are shaped by individual traits
+and contextual factors. In this paper, we introduce and analyze a parameterized
+general safety model that bridges the gap between physical and perceived safety
+by incorporating a personalization parameter, $\rho$, into the safety
+measurement framework to account for individual differences in safety
+perception. Through a series of hypothesis-driven human-subject studies in a
+simulated rescue scenario, we investigate how emotional state, trust, and robot
+behavior influence perceived safety. Our results show that $\rho$ effectively
+captures meaningful individual differences, driven by affective responses,
+trust in task consistency, and clustering into distinct user types.
+Specifically, our findings confirm that predictable and consistent robot
+behavior as well as the elicitation of positive emotional states, significantly
+enhance perceived safety. Moreover, responses cluster into a small number of
+user types, supporting adaptive personalization based on shared safety models.
+Notably, participant role significantly shapes safety perception, and repeated
+exposure reduces perceived safety for participants in the casualty role,
+emphasizing the impact of physical interaction and experiential change. These
+findings highlight the importance of adaptive, human-centered safety models
+that integrate both psychological and behavioral dimensions, offering a pathway
+toward more trustworthy and effective HRI in safety-critical domains.","Pranav Pandey, Ramviyas Parasuraman, Prashant Doshi",2025-07-09T09:47:05Z,2025-07-09T09:47:05Z,http://arxiv.org/abs/2507.06700v1,http://arxiv.org/pdf/2507.06700v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Image-driven Robot Drawing with Rapid Lognormal Movements,"Large image generation and vision models, combined with differentiable
+rendering technologies, have become powerful tools for generating paths that
+can be drawn or painted by a robot. However, these tools often overlook the
+intrinsic physicality of the human drawing/writing act, which is usually
+executed with skillful hand/arm gestures. Taking this into account is important
+for the visual aesthetics of the results and for the development of closer and
+more intuitive artist-robot collaboration scenarios. We present a method that
+bridges this gap by enabling gradient-based optimization of natural human-like
+motions guided by cost functions defined in image space. To this end, we use
+the sigma-lognormal model of human hand/arm movements, with an adaptation that
+enables its use in conjunction with a differentiable vector graphics (DiffVG)
+renderer. We demonstrate how this pipeline can be used to generate feasible
+trajectories for a robot by combining image-driven objectives with a
+minimum-time smoothing criterion. We demonstrate applications with generation
+and robotic reproduction of synthetic graffiti as well as image abstraction.","Daniel Berio, Guillaume Clivaz, Michael Stroh, Oliver Deussen, Réjean Plamondon, Sylvain Calinon, Frederic Fol Leymarie",2025-07-03T20:51:27Z,2025-07-03T20:51:27Z,http://arxiv.org/abs/2507.03166v1,http://arxiv.org/pdf/2507.03166v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Personalised Explanations in Long-term Human-Robot Interactions,"In the field of Human-Robot Interaction (HRI), a fundamental challenge is to
+facilitate human understanding of robots. The emerging domain of eXplainable
+HRI (XHRI) investigates methods to generate explanations and evaluate their
+impact on human-robot interactions. Previous works have highlighted the need to
+personalise the level of detail of these explanations to enhance usability and
+comprehension. Our paper presents a framework designed to update and retrieve
+user knowledge-memory models, allowing for adapting the explanations' level of
+detail while referencing previously acquired concepts. Three architectures
+based on our proposed framework that use Large Language Models (LLMs) are
+evaluated in two distinct scenarios: a hospital patrolling robot and a kitchen
+assistant robot. Experimental results demonstrate that a two-stage
+architecture, which first generates an explanation and then personalises it, is
+the framework architecture that effectively reduces the level of detail only
+when there is related user knowledge.","Ferran Gebellí, Anaís Garrell, Jan-Gerrit Habekost, Séverin Lemaignan, Stefan Wermter, Raquel Ros",2025-07-03T10:40:39Z,2025-07-03T10:40:39Z,http://arxiv.org/abs/2507.03049v1,http://arxiv.org/pdf/2507.03049v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Effective Explanations for Belief-Desire-Intention Robots: When and What
+  to Explain","When robots perform complex and context-dependent tasks in our daily lives,
+deviations from expectations can confuse users. Explanations of the robot's
+reasoning process can help users to understand the robot intentions. However,
+when to provide explanations and what they contain are important to avoid user
+annoyance. We have investigated user preferences for explanation demand and
+content for a robot that helps with daily cleaning tasks in a kitchen. Our
+results show that users want explanations in surprising situations and prefer
+concise explanations that clearly state the intention behind the confusing
+action and the contextual factors that were relevant to this decision. Based on
+these findings, we propose two algorithms to identify surprising actions and to
+construct effective explanations for Belief-Desire-Intention (BDI) robots. Our
+algorithms can be easily integrated in the BDI reasoning process and pave the
+way for better human-robot interaction with context- and user-specific
+explanations.","Cong Wang, Roberto Calandra, Verena Klös",2025-07-02T12:02:07Z,2025-07-02T12:02:07Z,http://arxiv.org/abs/2507.02016v1,http://arxiv.org/pdf/2507.02016v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Online Human Action Detection during Escorting,"The deployment of robot assistants in large indoor spaces has seen
+significant growth, with escorting tasks becoming a key application. However,
+most current escorting robots primarily rely on navigation-focused strategies,
+assuming that the person being escorted will follow without issue. In crowded
+environments, this assumption often falls short, as individuals may struggle to
+keep pace, become obstructed, get distracted, or need to stop unexpectedly. As
+a result, conventional robotic systems are often unable to provide effective
+escorting services due to their limited understanding of human movement
+dynamics. To address these challenges, an effective escorting robot must
+continuously detect and interpret human actions during the escorting process
+and adjust its movement accordingly. However, there is currently no existing
+dataset designed specifically for human action detection in the context of
+escorting. Given that escorting often occurs in crowded environments, where
+other individuals may enter the robot's camera view, the robot also needs to
+identify the specific human it is escorting (the subject) before predicting
+their actions. Since no existing model performs both person re-identification
+and action prediction in real-time, we propose a novel neural network
+architecture that can accomplish both tasks. This enables the robot to adjust
+its speed dynamically based on the escortee's movements and seamlessly resume
+escorting after any disruption. In comparative evaluations against strong
+baselines, our system demonstrates superior efficiency and effectiveness,
+showcasing its potential to significantly improve robotic escorting services in
+complex, real-world scenarios.","Siddhartha Mondal, Avik Mitra, Chayan Sarkar",2025-06-30T07:25:31Z,2025-06-30T07:25:31Z,http://arxiv.org/abs/2506.23573v1,http://arxiv.org/pdf/2506.23573v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Bootstrapping Human-Like Planning via LLMs,"Robot end users increasingly require accessible means of specifying tasks for
+robots to perform. Two common end-user programming paradigms include
+drag-and-drop interfaces and natural language programming. Although natural
+language interfaces harness an intuitive form of human communication,
+drag-and-drop interfaces enable users to meticulously and precisely dictate the
+key actions of the robot's task. In this paper, we investigate the degree to
+which both approaches can be combined. Specifically, we construct a large
+language model (LLM)-based pipeline that accepts natural language as input and
+produces human-like action sequences as output, specified at a level of
+granularity that a human would produce. We then compare these generated action
+sequences to another dataset of hand-specified action sequences. Although our
+results reveal that larger models tend to outperform smaller ones in the
+production of human-like action sequences, smaller models nonetheless achieve
+satisfactory performance.","David Porfirio, Vincent Hsiao, Morgan Fine-Morris, Leslie Smith, Laura M. Hiatt",2025-06-27T20:00:51Z,2025-06-27T20:00:51Z,http://arxiv.org/abs/2506.22604v1,http://arxiv.org/pdf/2506.22604v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Evaluating Pointing Gestures for Target Selection in Human-Robot
+  Collaboration","Pointing gestures are a common interaction method used in Human-Robot
+Collaboration for various tasks, ranging from selecting targets to guiding
+industrial processes. This study introduces a method for localizing pointed
+targets within a planar workspace. The approach employs pose estimation, and a
+simple geometric model based on shoulder-wrist extension to extract gesturing
+data from an RGB-D stream. The study proposes a rigorous methodology and
+comprehensive analysis for evaluating pointing gestures and target selection in
+typical robotic tasks. In addition to evaluating tool accuracy, the tool is
+integrated into a proof-of-concept robotic system, which includes object
+detection, speech transcription, and speech synthesis to demonstrate the
+integration of multiple modalities in a collaborative application. Finally, a
+discussion over tool limitations and performance is provided to understand its
+role in multimodal robotic systems. All developments are available at:
+https://github.com/NMKsas/gesture_pointer.git.","Noora Sassali, Roel Pieters",2025-06-27T10:51:31Z,2025-06-27T10:51:31Z,http://arxiv.org/abs/2506.22116v1,http://arxiv.org/pdf/2506.22116v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"A Review of Personalisation in Human-Robot Collaboration and Future
+  Perspectives Towards Industry 5.0","The shift in research focus from Industry 4.0 to Industry 5.0 (I5.0) promises
+a human-centric workplace, with social and well-being values at the centre of
+technological implementation. Human-Robot Collaboration (HRC) is a core aspect
+of I5.0 development, with an increase in adaptive and personalised interactions
+and behaviours. This review investigates recent advancements towards
+personalised HRC, where user-centric adaption is key. There is a growing trend
+for adaptable HRC research, however there lacks a consistent and unified
+approach. The review highlights key research trends on which personal factors
+are considered, workcell and interaction design, and adaptive task completion.
+This raises various key considerations for future developments, particularly
+around the ethical and regulatory development of personalised systems, which
+are discussed in detail.","James Fant-Male, Roel Pieters",2025-06-25T13:53:10Z,2025-06-25T13:53:10Z,http://arxiv.org/abs/2506.20447v1,http://arxiv.org/pdf/2506.20447v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Why Robots Are Bad at Detecting Their Mistakes: Limitations of
+  Miscommunication Detection in Human-Robot Dialogue","Detecting miscommunication in human-robot interaction is a critical function
+for maintaining user engagement and trust. While humans effortlessly detect
+communication errors in conversations through both verbal and non-verbal cues,
+robots face significant challenges in interpreting non-verbal feedback, despite
+advances in computer vision for recognizing affective expressions. This
+research evaluates the effectiveness of machine learning models in detecting
+miscommunications in robot dialogue. Using a multi-modal dataset of 240
+human-robot conversations, where four distinct types of conversational failures
+were systematically introduced, we assess the performance of state-of-the-art
+computer vision models. After each conversational turn, users provided feedback
+on whether they perceived an error, enabling an analysis of the models' ability
+to accurately detect robot mistakes. Despite using state-of-the-art models, the
+performance barely exceeds random chance in identifying miscommunication, while
+on a dataset with more expressive emotional content, they successfully
+identified confused states. To explore the underlying cause, we asked human
+raters to do the same. They could also only identify around half of the induced
+miscommunications, similarly to our model. These results uncover a fundamental
+limitation in identifying robot miscommunications in dialogue: even when users
+perceive the induced miscommunication as such, they often do not communicate
+this to their robotic conversation partner. This knowledge can shape
+expectations of the performance of computer vision models and can help
+researchers to design better human-robot conversations by deliberately
+eliciting feedback where needed.","Ruben Janssens, Jens De Bock, Sofie Labat, Eva Verhelst, Veronique Hoste, Tony Belpaeme",2025-06-25T09:25:04Z,2025-06-25T09:25:04Z,http://arxiv.org/abs/2506.20268v1,http://arxiv.org/pdf/2506.20268v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Mirror Eyes: Explainable Human-Robot Interaction at a Glance,"The gaze of a person tends to reflect their interest. This work explores what
+happens when this statement is taken literally and applied to robots. Here we
+present a robot system that employs a moving robot head with a screen-based eye
+model that can direct the robot's gaze to points in physical space and present
+a reflection-like mirror image of the attended region on top of each eye. We
+conducted a user study with 33 participants, who were asked to instruct the
+robot to perform pick-and-place tasks, monitor the robot's task execution, and
+interrupt it in case of erroneous actions. Despite a deliberate lack of
+instructions about the role of the eyes and a very brief system exposure,
+participants felt more aware about the robot's information processing, detected
+erroneous actions earlier, and rated the user experience higher when eye-based
+mirroring was enabled compared to non-reflective eyes. These results suggest a
+beneficial and intuitive utilization of the introduced method in cooperative
+human-robot interaction.","Matti Krüger, Daniel Tanneberg, Chao Wang, Stephan Hasler, Michael Gienger",2025-06-23T10:06:26Z,2025-06-23T10:06:26Z,http://arxiv.org/abs/2506.18466v1,http://arxiv.org/pdf/2506.18466v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Optimizing Exploration with a New Uncertainty Framework for Active SLAM
+  Systems","Accurate reconstruction of the environment is a central goal of Simultaneous
+Localization and Mapping (SLAM) systems. However, the agent's trajectory can
+significantly affect estimation accuracy. This paper presents a new method to
+model map uncertainty in Active SLAM systems using an Uncertainty Map (UM). The
+UM uses probability distributions to capture where the map is uncertain,
+allowing Uncertainty Frontiers (UF) to be defined as key
+exploration-exploitation objectives and potential stopping criteria. In
+addition, the method introduces the Signed Relative Entropy (SiREn), based on
+the Kullback-Leibler divergence, to measure both coverage and uncertainty
+together. This helps balance exploration and exploitation through an
+easy-to-understand parameter. Unlike methods that depend on particular SLAM
+setups, the proposed approach is compatible with different types of sensors,
+such as cameras, LiDARs, and multi-sensor fusion. It also addresses common
+problems in exploration planning and stopping conditions. Furthermore,
+integrating this map modeling approach with a UF-based planning system enables
+the agent to autonomously explore open spaces, a behavior not previously
+observed in the Active SLAM literature. Code and implementation details are
+available as a ROS node, and all generated data are openly available for public
+use, facilitating broader adoption and validation of the proposed approach.","Sebastian Sansoni, Javier Gimenez, Gastón Castro, Santiago Tosetti, Flavio Craparo",2025-06-21T18:12:41Z,2025-06-21T18:12:41Z,http://arxiv.org/abs/2506.17775v1,http://arxiv.org/pdf/2506.17775v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+See What I Mean? Expressiveness and Clarity in Robot Display Design,"Nonverbal visual symbols and displays play an important role in communication
+when humans and robots work collaboratively. However, few studies have
+investigated how different types of non-verbal cues affect objective task
+performance, especially in a dynamic environment that requires real time
+decision-making. In this work, we designed a collaborative navigation task
+where the user and the robot only had partial information about the map on each
+end and thus the users were forced to communicate with a robot to complete the
+task. We conducted our study in a public space and recruited 37 participants
+who randomly passed by our setup. Each participant collaborated with a robot
+utilizing either animated anthropomorphic eyes and animated icons, or static
+anthropomorphic eyes and static icons. We found that participants that
+interacted with a robot with animated displays reported the greatest level of
+trust and satisfaction; that participants interpreted static icons the best;
+and that participants with a robot with static eyes had the highest completion
+success. These results suggest that while animation can foster trust with
+robots, human-robot communication can be optimized by the addition of familiar
+static icons that may be easier for users to interpret. We published our code,
+designed symbols, and collected results online at:
+https://github.com/mattufts/huamn_Cozmo_interaction.","Matthew Ebisu, Hang Yu, Reuben Aronson, Elaine Short",2025-06-19T23:02:36Z,2025-06-19T23:02:36Z,http://arxiv.org/abs/2506.16643v1,http://arxiv.org/pdf/2506.16643v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Conversations with Andrea: Visitors' Opinions on Android Robots in a
+  Museum","The android robot Andrea was set up at a public museum in Germany for six
+consecutive days to have conversations with visitors, fully autonomously. No
+specific context was given, so visitors could state their opinions regarding
+possible use-cases in structured interviews, without any bias. Additionally the
+44 interviewees were asked for their general opinions of the robot, their
+reasons (not) to interact with it and necessary improvements for future use.
+The android's voice and wig were changed between different days of operation to
+give varying cues regarding its gender. This did not have a significant impact
+on the positive overall perception of the robot. Most visitors want the robot
+to provide information about exhibits in the future, while opinions on other
+roles, like a receptionist, were both wanted and explicitly not wanted by
+different visitors. Speaking more languages (than only English) and faster
+response times were the improvements most desired. These findings from the
+interviews are in line with an analysis of the system logs, which revealed,
+that after chitchat and personal questions, most of the 4436 collected requests
+asked for information related to the museum and to converse in a different
+language. The valuable insights gained from these real-world interactions are
+now used to improve the system to become a useful real-world application.","Marcel Heisler, Christian Becker-Asano",2025-06-18T15:30:20Z,2025-06-18T15:30:20Z,http://arxiv.org/abs/2506.22466v1,http://arxiv.org/pdf/2506.22466v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+I Know You're Listening: Adaptive Voice for HRI,"While the use of social robots for language teaching has been explored, there
+remains limited work on a task-specific synthesized voices for language
+teaching robots. Given that language is a verbal task, this gap may have severe
+consequences for the effectiveness of robots for language teaching tasks. We
+address this lack of L2 teaching robot voices through three contributions: 1.
+We address the need for a lightweight and expressive robot voice. Using a
+fine-tuned version of Matcha-TTS, we use emoji prompting to create an
+expressive voice that shows a range of expressivity over time. The voice can
+run in real time with limited compute resources. Through case studies, we found
+this voice more expressive, socially appropriate, and suitable for long periods
+of expressive speech, such as storytelling. 2. We explore how to adapt a
+robot's voice to physical and social ambient environments to deploy our voices
+in various locations. We found that increasing pitch and pitch rate in noisy
+and high-energy environments makes the robot's voice appear more appropriate
+and makes it seem more aware of its current environment. 3. We create an
+English TTS system with improved clarity for L2 listeners using known
+linguistic properties of vowels that are difficult for these listeners. We used
+a data-driven, perception-based approach to understand how L2 speakers use
+duration cues to interpret challenging words with minimal tense (long) and lax
+(short) vowels in English. We found that the duration of vowels strongly
+influences the perception for L2 listeners and created an ""L2 clarity mode"" for
+Matcha-TTS that applies a lengthening to tense vowels while leaving lax vowels
+unchanged. Our clarity mode was found to be more respectful, intelligible, and
+encouraging than base Matcha-TTS while reducing transcription errors in these
+challenging tense/lax minimal pairs.",Paige Tuttösí,2025-06-18T03:23:41Z,2025-07-30T07:40:35Z,http://arxiv.org/abs/2506.15107v2,http://arxiv.org/pdf/2506.15107v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+EmojiVoice: Towards long-term controllable expressivity in robot speech,"Humans vary their expressivity when speaking for extended periods to maintain
+engagement with their listener. Although social robots tend to be deployed with
+``expressive'' joyful voices, they lack this long-term variation found in human
+speech. Foundation model text-to-speech systems are beginning to mimic the
+expressivity in human speech, but they are difficult to deploy offline on
+robots. We present EmojiVoice, a free, customizable text-to-speech (TTS)
+toolkit that allows social roboticists to build temporally variable, expressive
+speech on social robots. We introduce emoji-prompting to allow fine-grained
+control of expressivity on a phase level and use the lightweight Matcha-TTS
+backbone to generate speech in real-time. We explore three case studies: (1) a
+scripted conversation with a robot assistant, (2) a storytelling robot, and (3)
+an autonomous speech-to-speech interactive agent. We found that using varied
+emoji prompting improved the perception and expressivity of speech over a long
+period in a storytelling task, but expressive voice was not preferred in the
+assistant use case.","Paige Tuttösí, Shivam Mehta, Zachary Syvenky, Bermet Burkanova, Gustav Eje Henter, Angelica Lim",2025-06-18T02:49:50Z,2025-07-30T12:12:48Z,http://arxiv.org/abs/2506.15085v2,http://arxiv.org/pdf/2506.15085v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Help or Hindrance: Understanding the Impact of Robot Communication in
+  Action Teams","The human-robot interaction (HRI) field has recognized the importance of
+enabling robots to interact with teams. Human teams rely on effective
+communication for successful collaboration in time-sensitive environments.
+Robots can play a role in enhancing team coordination through real-time
+assistance. Despite significant progress in human-robot teaming research, there
+remains an essential gap in how robots can effectively communicate with action
+teams using multimodal interaction cues in time-sensitive environments. This
+study addresses this knowledge gap in an experimental in-lab study to
+investigate how multimodal robot communication in action teams affects workload
+and human perception of robots. We explore team collaboration in a medical
+training scenario where a robotic crash cart (RCC) provides verbal and
+non-verbal cues to help users remember to perform iterative tasks and search
+for supplies. Our findings show that verbal cues for object search tasks and
+visual cues for task reminders reduce team workload and increase perceived ease
+of use and perceived usefulness more effectively than a robot with no feedback.
+Our work contributes to multimodal interaction research in the HRI field,
+highlighting the need for more human-robot teaming research to understand best
+practices for integrating collaborative robots in time-sensitive environments
+such as in hospitals, search and rescue, and manufacturing applications.","Tauhid Tanjim, Jonathan St. George, Kevin Ching, Angelique Taylor",2025-06-10T15:19:26Z,2025-06-24T07:33:18Z,http://arxiv.org/abs/2506.08892v3,http://arxiv.org/pdf/2506.08892v3.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Human-Robot Teaming Field Deployments: A Comparison Between Verbal and
+  Non-verbal Communication","Healthcare workers (HCWs) encounter challenges in hospitals, such as
+retrieving medical supplies quickly from crash carts, which could potentially
+result in medical errors and delays in patient care. Robotic crash carts (RCCs)
+have shown promise in assisting healthcare teams during medical tasks through
+guided object searches and task reminders. Limited exploration has been done to
+determine what communication modalities are most effective and least disruptive
+to patient care in real-world settings. To address this gap, we conducted a
+between-subjects experiment comparing the RCC's verbal and non-verbal
+communication of object search with a standard crash cart in resuscitation
+scenarios to understand the impact of robot communication on workload and
+attitudes toward using robots in the workplace. Our findings indicate that
+verbal communication significantly reduced mental demand and effort compared to
+visual cues and with a traditional crash cart. Although frustration levels were
+slightly higher during collaborations with the robot compared to a traditional
+cart, these research insights provide valuable implications for human-robot
+teamwork in high-stakes environments.","Tauhid Tanjim, Promise Ekpo, Huajie Cao, Jonathan St. George, Kevin Ching, Hee Rin Lee, Angelique Taylor",2025-06-10T15:17:33Z,2025-06-24T07:24:29Z,http://arxiv.org/abs/2506.08890v2,http://arxiv.org/pdf/2506.08890v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Blending Participatory Design and Artificial Awareness for Trustworthy
+  Autonomous Vehicles","Current robotic agents, such as autonomous vehicles (AVs) and drones, need to
+deal with uncertain real-world environments with appropriate situational
+awareness (SA), risk awareness, coordination, and decision-making. The SymAware
+project strives to address this issue by designing an architecture for
+artificial awareness in multi-agent systems, enabling safe collaboration of
+autonomous vehicles and drones. However, these agents will also need to
+interact with human users (drivers, pedestrians, drone operators), which in
+turn requires an understanding of how to model the human in the interaction
+scenario, and how to foster trust and transparency between the agent and the
+human.
+  In this work, we aim to create a data-driven model of a human driver to be
+integrated into our SA architecture, grounding our research in the principles
+of trustworthy human-agent interaction. To collect the data necessary for
+creating the model, we conducted a large-scale user-centered study on human-AV
+interaction, in which we investigate the interaction between the AV's
+transparency and the users' behavior.
+  The contributions of this paper are twofold: First, we illustrate in detail
+our human-AV study and its findings, and second we present the resulting Markov
+chain models of the human driver computed from the study's data. Our results
+show that depending on the AV's transparency, the scenario's environment, and
+the users' demographics, we can obtain significant differences in the model's
+transitions.","Ana Tanevska, Ananthapathmanabhan Ratheesh Kumar, Arabinda Ghosh, Ernesto Casablanca, Ginevra Castellano, Sadegh Soudjani",2025-06-09T11:00:28Z,2025-06-09T11:00:28Z,http://arxiv.org/abs/2506.07633v1,http://arxiv.org/pdf/2506.07633v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Employing Laban Shape for Generating Emotionally and Functionally
+  Expressive Trajectories in Robotic Manipulators","Successful human-robot collaboration depends on cohesive communication and a
+precise understanding of the robot's abilities, goals, and constraints. While
+robotic manipulators offer high precision, versatility, and productivity, they
+exhibit expressionless and monotonous motions that conceal the robot's
+intention, resulting in a lack of efficiency and transparency with humans. In
+this work, we use Laban notation, a dance annotation language, to enable
+robotic manipulators to generate trajectories with functional expressivity,
+where the robot uses nonverbal cues to communicate its abilities and the
+likelihood of succeeding at its task. We achieve this by introducing two novel
+variants of Hesitant expressive motion (Spoke-Like and Arc-Like). We also
+enhance the emotional expressivity of four existing emotive trajectories
+(Happy, Sad, Shy, and Angry) by augmenting Laban Effort usage with Laban Shape.
+The functionally expressive motions are validated via a human-subjects study,
+where participants equate both variants of Hesitant motion with reduced robot
+competency. The enhanced emotive trajectories are shown to be viewed as
+distinct emotions using the Valence-Arousal-Dominance (VAD) spectrum,
+corroborating the usage of Laban Shape.","Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone",2025-05-16T21:58:19Z,2025-06-23T18:03:54Z,http://arxiv.org/abs/2505.11716v2,http://arxiv.org/pdf/2505.11716v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"MDF: Multi-Modal Data Fusion with CNN-Based Object Detection for
+  Enhanced Indoor Localization Using LiDAR-SLAM","Indoor localization faces persistent challenges in achieving high accuracy,
+particularly in GPS-deprived environments. This study unveils a cutting-edge
+handheld indoor localization system that integrates 2D LiDAR and IMU sensors,
+delivering enhanced high-velocity precision mapping, computational efficiency,
+and real-time adaptability. Unlike 3D LiDAR systems, it excels with rapid
+processing, low-cost scalability, and robust performance, setting new standards
+for emergency response, autonomous navigation, and industrial automation.
+Enhanced with a CNN-driven object detection framework and optimized through
+Cartographer SLAM (simultaneous localization and mapping ) in ROS, the system
+significantly reduces Absolute Trajectory Error (ATE) by 21.03%, achieving
+exceptional precision compared to state-of-the-art approaches like SC-ALOAM,
+with a mean x-position error of -0.884 meters (1.976 meters). The integration
+of CNN-based object detection ensures robustness in mapping and localization,
+even in cluttered or dynamic environments, outperforming existing methods by
+26.09%. These advancements establish the system as a reliable, scalable
+solution for high-precision localization in challenging indoor scenarios","Saqi Hussain Kalan, Boon Giin Lee, Wan-Young Chung",2025-05-13T09:34:55Z,2025-05-13T09:34:55Z,http://arxiv.org/abs/2505.08388v1,http://arxiv.org/pdf/2505.08388v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Work in Progress: Middleware-Transparent Callback Enforcement in
+  Commoditized Component-Oriented Real-time Systems","Real-time scheduling in commoditized component-oriented real-time systems,
+such as ROS 2 systems on Linux, has been studied under nested scheduling: OS
+thread scheduling and middleware layer scheduling (e.g., ROS 2 Executor).
+However, by establishing a persistent one-to-one correspondence between
+callbacks and OS threads, we can ignore the middleware layer and directly apply
+OS scheduling parameters (e.g., scheduling policy, priority, and affinity) to
+individual callbacks. We propose a middleware model that enables this idea and
+implements CallbackIsolatedExecutor as a novel ROS 2 Executor. We demonstrate
+that the costs (user-kernel switches, context switches, and memory usage) of
+CallbackIsolatedExecutor remain lower than those of the MultiThreadedExecutor,
+regardless of the number of callbacks. Additionally, the cost of
+CallbackIsolatedExecutor relative to SingleThreadedExecutor stays within a
+fixed ratio (1.4x for inter-process and 5x for intra-process communication).
+Future ROS 2 real-time scheduling research can avoid nested scheduling,
+ignoring the existence of the middleware layer.","Takahiro Ishikawa-Aso, Atsushi Yano, Takuya Azumi, Shinpei Kato",2025-05-10T07:16:10Z,2025-05-10T07:16:10Z,http://arxiv.org/abs/2505.06546v1,http://arxiv.org/pdf/2505.06546v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+LLM-Land: Large Language Models for Context-Aware Drone Landing,"Autonomous landing is essential for drones deployed in emergency deliveries,
+post-disaster response, and other large-scale missions. By enabling
+self-docking on charging platforms, it facilitates continuous operation and
+significantly extends mission endurance. However, traditional approaches often
+fall short in dynamic, unstructured environments due to limited semantic
+awareness and reliance on fixed, context-insensitive safety margins. To address
+these limitations, we propose a hybrid framework that integrates large language
+model (LLMs) with model predictive control (MPC). Our approach begins with a
+vision-language encoder (VLE) (e.g., BLIP), which transforms real-time images
+into concise textual scene descriptions. These descriptions are processed by a
+lightweight LLM (e.g., Qwen 2.5 1.5B or LLaMA 3.2 1B) equipped with
+retrieval-augmented generation (RAG) to classify scene elements and infer
+context-aware safety buffers, such as 3 meters for pedestrians and 5 meters for
+vehicles. The resulting semantic flags and unsafe regions are then fed into an
+MPC module, enabling real-time trajectory replanning that avoids collisions
+while maintaining high landing precision. We validate our framework in the
+ROS-Gazebo simulator, where it consistently outperforms conventional
+vision-based MPC baselines. Our results show a significant reduction in
+near-miss incidents with dynamic obstacles, while preserving accurate landings
+in cluttered environments.","Siwei Cai, Yuwei Wu, Lifeng Zhou",2025-05-09T19:55:22Z,2025-05-09T19:55:22Z,http://arxiv.org/abs/2505.06399v1,http://arxiv.org/pdf/2505.06399v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Oh F**k! How Do People Feel about Robots that Leverage Profanity?,"Profanity is nearly as old as language itself, and cursing has become
+particularly ubiquitous within the last century. At the same time, robots in
+personal and service applications are often overly polite, even though past
+work demonstrates the potential benefits of robot norm-breaking. Thus, we
+became curious about robots using curse words in error scenarios as a means for
+improving social perceptions by human users. We investigated this idea using
+three phases of exploratory work: an online video-based study (N = 76) with a
+student pool, an online video-based study (N = 98) in the general U.S.
+population, and an in-person proof-of-concept deployment (N = 52) in a campus
+space, each of which included the following conditions: no-speech,
+non-expletive error response, and expletive error response. A surprising result
+in the outcomes for all three studies was that although verbal acknowledgment
+of an error was typically beneficial (as expected based on prior work), few
+significant differences appeared between the non-expletive and expletive error
+acknowledgment conditions (counter to our expectations). Within the cultural
+context of our work, the U.S., it seems that many users would likely not mind
+if robots curse, and may even find it relatable and humorous. This work signals
+a promising and mischievous design space that challenges typical robot
+character design.","Madison R. Shippy, Brian J. Zhang, Naomi T. Fitter",2025-05-09T06:58:43Z,2025-05-09T06:58:43Z,http://arxiv.org/abs/2505.05831v1,http://arxiv.org/pdf/2505.05831v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Comparison of Waymo Rider-Only Crash Rates by Crash Type to Human
+  Benchmarks at 56.7 Million Miles","SAE Level 4 Automated Driving Systems (ADSs) are deployed on public roads,
+including Waymo's Rider-Only (RO) ride-hailing service (without a driver behind
+the steering wheel). The objective of this study was to perform a retrospective
+safety assessment of Waymo's RO crash rate compared to human benchmarks,
+including disaggregated by crash type.
+  Eleven crash type groups were identified from commonly relied upon crash
+typologies that are derived from human crash databases. Human benchmarks were
+aligned to the same vehicle types, road types, and locations as where the Waymo
+Driver operated. Waymo crashes were extracted from the NHTSA Standing General
+Order (SGO). RO mileage was provided by the company via a public website.
+Any-injury-reported, Airbag Deployment, and Suspected Serious Injury+ crash
+outcomes were examined because they represented previously established,
+safety-relevant benchmarks where statistical testing could be performed at the
+current mileage.
+  Data was examined over 56.7 million RO miles through the end of January 2025,
+resulting in a statistically significant lower crashed vehicle rate for all
+crashes compared to the benchmarks in Any-Injury-Reported and Airbag
+Deployment, and Suspected Serious Injury+ crashes. Of the crash types, V2V
+Intersection crash events represented the largest total crash reduction, with a
+96% reduction in Any-injury-reported (87%-99% CI) and a 91% reduction in Airbag
+Deployment (76%-98% CI) events. Cyclist, Motorcycle, Pedestrian, Secondary
+Crash, and Single Vehicle crashes were also statistically reduced for the
+Any-Injury-Reported outcome. There was no statistically significant disbenefit
+found in any of the 11 crash type groups.
+  This study represents the first retrospective safety assessment of an RO ADS
+that made statistical conclusions about more serious crash outcomes and
+analyzed crash rates on a crash type basis.","Kristofer D. Kusano, John M. Scanlon, Yin-Hsiu Chen, Timothy L. McMurry, Tilia Gode, Trent Victor",2025-05-02T18:04:20Z,2025-05-02T18:04:20Z,http://arxiv.org/abs/2505.01515v1,http://arxiv.org/pdf/2505.01515v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Ice-Breakers, Turn-Takers and Fun-Makers: Exploring Robots for Groups
+  with Teenagers","Successful, enjoyable group interactions are important in public and personal
+contexts, especially for teenagers whose peer groups are important for
+self-identity and self-esteem. Social robots seemingly have the potential to
+positively shape group interactions, but it seems difficult to effect such
+impact by designing robot behaviors solely based on related (human interaction)
+literature. In this article, we take a user-centered approach to explore how
+teenagers envisage a social robot ""group assistant"". We engaged 16 teenagers in
+focus groups, interviews, and robot testing to capture their views and
+reflections about robots for groups. Over the course of a two-week summer
+school, participants co-designed the action space for such a robot and
+experienced working with/wizarding it for 10+ hours. This experience further
+altered and deepened their insights into using robots as group assistants. We
+report results regarding teenagers' views on the applicability and use of a
+robot group assistant, how these expectations evolved throughout the study, and
+their repeat interactions with the robot. Our results indicate that each group
+moves on a spectrum of need for the robot, reflected in use of the robot more
+(or less) for ice-breaking, turn-taking, and fun-making as the situation
+demanded.","Sarah Gillet, Katie Winkle, Giulia Belgiovine, Iolanda Leite",2025-04-09T09:19:24Z,2025-04-09T09:19:24Z,http://arxiv.org/abs/2504.06718v1,http://arxiv.org/pdf/2504.06718v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Public speech recognition transcripts as a configuring parameter,"Displaying a written transcript of what a human said (i.e. producing an
+""automatic speech recognition transcript"") is a common feature for smartphone
+vocal assistants: the utterance produced by a human speaker (e.g. a question)
+is displayed on the screen while it is being verbally responded to by the vocal
+assistant. Although very rarely, this feature also exists on some ""social""
+robots which transcribe human interactants' speech on a screen or a tablet. We
+argue that this informational configuration is pragmatically consequential on
+the interaction, both for human participants and for the embodied
+conversational agent. Based on a corpus of co-present interactions with a
+humanoid robot, we attempt to show that this transcript is a contextual feature
+which can heavily impact the actions ascribed by humans to the robot: that is,
+the way in which humans respond to the robot's behavior as constituting a
+specific type of action (rather than another) and as constituting an adequate
+response to their own previous turn.","Damien Rudaz, Christian Licoppe",2025-04-06T13:44:47Z,2025-04-06T13:44:47Z,http://arxiv.org/abs/2504.04488v1,http://arxiv.org/pdf/2504.04488v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Estimating Scene Flow in Robot Surroundings with Distributed
+  Miniaturized Time-of-Flight Sensors","Tracking motions of humans or objects in the surroundings of the robot is
+essential to improve safe robot motions and reactions. In this work, we present
+an approach for scene flow estimation from low-density and noisy point clouds
+acquired from miniaturized Time of Flight (ToF) sensors distributed on the
+robot body. The proposed method clusters points from consecutive frames and
+applies Iterative Closest Point (ICP) to estimate a dense motion flow, with
+additional steps introduced to mitigate the impact of sensor noise and
+low-density data points. Specifically, we employ a fitness-based classification
+to distinguish between stationary and moving points and an inlier removal
+strategy to refine geometric correspondences. The proposed approach is
+validated in an experimental setup where 24 ToF are used to estimate the
+velocity of an object moving at different controlled speeds. Experimental
+results show that the method consistently approximates the direction of the
+motion and its magnitude with an error which is in line with sensor noise.","Jack Sander, Giammarco Caroleo, Alessandro Albini, Perla Maiolino",2025-04-03T09:57:51Z,2025-07-31T09:50:03Z,http://arxiv.org/abs/2504.02439v2,http://arxiv.org/pdf/2504.02439v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Toward Anxiety-Reducing Pocket Robots for Children,"A common denominator for most therapy treatments for children who suffer from
+an anxiety disorder is daily practice routines to learn techniques needed to
+overcome anxiety. However, applying those techniques while experiencing anxiety
+can be highly challenging. This paper presents the design, implementation, and
+pilot study of a tactile hand-held pocket robot AffectaPocket, designed to work
+alongside therapy as a focus object to facilitate coping during an anxiety
+attack. The robot does not require daily practice to be used, has a small form
+factor, and has been designed for children 7 to 12 years old. The pocket robot
+works by sensing when it is being held and attempts to shift the child's focus
+by presenting them with a simple three-note rhythm-matching game. We conducted
+a pilot study of the pocket robot involving four children aged 7 to 10 years,
+and then a main study with 18 children aged 6 to 8 years; neither study
+involved children with anxiety. Both studies aimed to assess the reliability of
+the robot's sensor configuration, its design, and the effectiveness of the user
+tutorial. The results indicate that the morphology and sensor setup performed
+adequately and the tutorial process enabled the children to use the robot with
+little practice. This work demonstrates that the presented pocket robot could
+represent a step toward developing low-cost accessible technologies to help
+children suffering from anxiety disorders.","Morten Roed Frederiksen, Kasper Støy, Maja Matarić",2025-03-31T13:05:59Z,2025-03-31T13:05:59Z,http://arxiv.org/abs/2503.24041v1,http://arxiv.org/pdf/2503.24041v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Perspective-Shifted Neuro-Symbolic World Models: A Framework for
+  Socially-Aware Robot Navigation","Navigating in environments alongside humans requires agents to reason under
+uncertainty and account for the beliefs and intentions of those around them.
+Under a sequential decision-making framework, egocentric navigation can
+naturally be represented as a Markov Decision Process (MDP). However, social
+navigation additionally requires reasoning about the hidden beliefs of others,
+inherently leading to a Partially Observable Markov Decision Process (POMDP),
+where agents lack direct access to others' mental states. Inspired by Theory of
+Mind and Epistemic Planning, we propose (1) a neuro-symbolic model-based
+reinforcement learning architecture for social navigation, addressing the
+challenge of belief tracking in partially observable environments; and (2) a
+perspective-shift operator for belief estimation, leveraging recent work on
+Influence-based Abstractions (IBA) in structured multi-agent settings.","Kevin Alcedo, Pedro U. Lima, Rachid Alami",2025-03-26T10:59:08Z,2025-09-02T14:25:18Z,http://arxiv.org/abs/2503.20425v3,http://arxiv.org/pdf/2503.20425v3.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"V2X-ReaLO: An Open Online Framework and Dataset for Cooperative
+  Perception in Reality","Cooperative perception enabled by Vehicle-to-Everything (V2X) communication
+holds significant promise for enhancing the perception capabilities of
+autonomous vehicles, allowing them to overcome occlusions and extend their
+field of view. However, existing research predominantly relies on simulated
+environments or static datasets, leaving the feasibility and effectiveness of
+V2X cooperative perception especially for intermediate fusion in real-world
+scenarios largely unexplored. In this work, we introduce V2X-ReaLO, an open
+online cooperative perception framework deployed on real vehicles and smart
+infrastructure that integrates early, late, and intermediate fusion methods
+within a unified pipeline and provides the first practical demonstration of
+online intermediate fusion's feasibility and performance under genuine
+real-world conditions. Additionally, we present an open benchmark dataset
+specifically designed to assess the performance of online cooperative
+perception systems. This new dataset extends V2X-Real dataset to dynamic,
+synchronized ROS bags and provides 25,028 test frames with 6,850 annotated key
+frames in challenging urban scenarios. By enabling real-time assessments of
+perception accuracy and communication lantency under dynamic conditions,
+V2X-ReaLO sets a new benchmark for advancing and optimizing cooperative
+perception systems in real-world applications. The codes and datasets will be
+released to further advance the field.","Hao Xiang, Zhaoliang Zheng, Xin Xia, Seth Z. Zhao, Letian Gao, Zewei Zhou, Tianhui Cai, Yun Zhang, Jiaqi Ma",2025-03-13T04:31:20Z,2025-03-13T04:31:20Z,http://arxiv.org/abs/2503.10034v1,http://arxiv.org/pdf/2503.10034v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+A Navigation System for ROV's inspection on Fish Net Cage,"Autonomous Remotely Operated Vehicles (ROVs) offer a promising solution for
+automating fishnet inspection, reducing labor dependency, and improving
+operational efficiency. In this paper, we modify an off-the-shelf ROV, the
+BlueROV2, into a ROS-based framework and develop a localization module, a path
+planning system, and a control framework. For real-time, local localization, we
+employ the open-source TagSLAM library. Additionally, we propose a control
+strategy based on a Nominal Feedback Controller (NFC) to achieve precise
+trajectory tracking. The proposed system has been implemented and validated
+through experiments in a controlled laboratory environment, demonstrating its
+effectiveness for real-world applications.","Zhikang Ge, Fang Yang, Wenwu Lu, Peng Wei, Yibin Ying, Chen Peng",2025-03-01T13:17:16Z,2025-03-01T13:17:16Z,http://arxiv.org/abs/2503.00482v1,http://arxiv.org/pdf/2503.00482v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+Ro-To-Go! Robust Reactive Control with Signal Temporal Logic,"Signal Temporal Logic (STL) robustness is a common objective for optimal
+robot control, but its dependence on history limits the robot's decision-making
+capabilities when used in Model Predictive Control (MPC) approaches. In this
+work, we introduce Signal Temporal Logic robustness-to-go (Ro-To-Go), a new
+quantitative semantics for the logic that isolates the contributions of suffix
+trajectories. We prove its relationship to formula progression for Metric
+Temporal Logic, and show that the robustness-to-go depends only on the suffix
+trajectory and progressed formula. We implement robustness-to-go as the
+objective in an MPC algorithm and use formula progression to efficiently
+evaluate it online. We test the algorithm in simulation and compare it to MPC
+using traditional STL robustness. Our experiments show that using
+robustness-to-go results in a higher success rate.","Roland Ilyes, Lara Brudermüller, Nick Hawes, Bruno Lacerda",2025-02-28T18:00:23Z,2025-03-17T14:25:17Z,http://arxiv.org/abs/2503.05792v2,http://arxiv.org/pdf/2503.05792v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+The NavINST Dataset for Multi-Sensor Autonomous Navigation,"The NavINST Laboratory has developed a comprehensive multisensory dataset
+from various road-test trajectories in urban environments, featuring diverse
+lighting conditions, including indoor garage scenarios with dense 3D maps. This
+dataset includes multiple commercial-grade IMUs and a high-end tactical-grade
+IMU. Additionally, it contains a wide array of perception-based sensors, such
+as a solid-state LiDAR - making it one of the first datasets to do so - a
+mechanical LiDAR, four electronically scanning RADARs, a monocular camera, and
+two stereo cameras. The dataset also includes forward speed measurements
+derived from the vehicle's odometer, along with accurately post-processed
+high-end GNSS/IMU data, providing precise ground truth positioning and
+navigation information. The NavINST dataset is designed to support advanced
+research in high-precision positioning, navigation, mapping, computer vision,
+and multisensory fusion. It offers rich, multi-sensor data ideal for developing
+and validating robust algorithms for autonomous vehicles. Finally, it is fully
+integrated with the ROS, ensuring ease of use and accessibility for the
+research community. The complete dataset and development tools are available at
+https://navinst.github.io.","Paulo Ricardo Marques de Araujo, Eslam Mounier, Qamar Bader, Emma Dawson, Shaza I. Kaoud Abdelaziz, Ahmed Zekry, Mohamed Elhabiby, Aboelmagd Noureldin",2025-02-19T16:31:56Z,2025-02-19T16:31:56Z,http://arxiv.org/abs/2502.13863v1,http://arxiv.org/pdf/2502.13863v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Generating Physically Realistic and Directable Human Motions from
+  Multi-Modal Inputs","This work focuses on generating realistic, physically-based human behaviors
+from multi-modal inputs, which may only partially specify the desired motion.
+For example, the input may come from a VR controller providing arm motion and
+body velocity, partial key-point animation, computer vision applied to videos,
+or even higher-level motion goals. This requires a versatile low-level humanoid
+controller that can handle such sparse, under-specified guidance, seamlessly
+switch between skills, and recover from failures. Current approaches for
+learning humanoid controllers from demonstration data capture some of these
+characteristics, but none achieve them all. To this end, we introduce the
+Masked Humanoid Controller (MHC), a novel approach that applies multi-objective
+imitation learning on augmented and selectively masked motion demonstrations.
+The training methodology results in an MHC that exhibits the key capabilities
+of catch-up to out-of-sync input commands, combining elements from multiple
+motion sequences, and completing unspecified parts of motions from sparse
+multimodal input. We demonstrate these key capabilities for an MHC learned over
+a dataset of 87 diverse skills and showcase different multi-modal use cases,
+including integration with planning frameworks to highlight MHC's ability to
+solve new user-defined tasks without any finetuning.","Aayam Shrestha, Pan Liu, German Ros, Kai Yuan, Alan Fern",2025-02-08T17:02:11Z,2025-02-08T17:02:11Z,http://arxiv.org/abs/2502.05641v1,http://arxiv.org/pdf/2502.05641v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Reduce Lap Time for Autonomous Racing with Curvature-Integrated MPCC
+  Local Trajectory Planning Method","The widespread application of autonomous driving technology has significantly
+advanced the field of autonomous racing. Model Predictive Contouring Control
+(MPCC) is a highly effective local trajectory planning method for autonomous
+racing. However, the traditional MPCC method struggles with racetracks that
+have significant curvature changes, limiting the performance of the vehicle
+during autonomous racing. To address this issue, we propose a
+curvature-integrated MPCC (CiMPCC) local trajectory planning method for
+autonomous racing. This method optimizes the velocity of the local trajectory
+based on the curvature of the racetrack centerline. The specific implementation
+involves mapping the curvature of the racetrack centerline to a reference
+velocity profile, which is then incorporated into the cost function for
+optimizing the velocity of the local trajectory. This reference velocity
+profile is created by normalizing and mapping the curvature of the racetrack
+centerline, thereby ensuring efficient and performance-oriented local
+trajectory planning in racetracks with significant curvature. The proposed
+CiMPCC method has been experimented on a self-built 1:10 scale F1TENTH racing
+vehicle deployed with ROS platform. The experimental results demonstrate that
+the proposed method achieves outstanding results on a challenging racetrack
+with sharp curvature, improving the overall lap time by 11.4%-12.5% compared to
+other autonomous racing trajectory planning methods. Our code is available at
+https://github.com/zhouhengli/CiMPCC.","Zhouheng Li, Lei Xie, Cheng Hu, Hongye Su",2025-02-06T01:03:54Z,2025-02-06T01:03:54Z,http://arxiv.org/abs/2502.03695v1,http://arxiv.org/pdf/2502.03695v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Multi-LiCa: A Motion and Targetless Multi LiDAR-to-LiDAR Calibration
+  Framework","Today's autonomous vehicles rely on a multitude of sensors to perceive their
+environment. To improve the perception or create redundancy, the sensor's
+alignment relative to each other must be known. With Multi-LiCa, we present a
+novel approach for the alignment, e.g. calibration. We present an automatic
+motion- and targetless approach for the extrinsic multi LiDAR-to-LiDAR
+calibration without the need for additional sensor modalities or an initial
+transformation input. We propose a two-step process with feature-based matching
+for the coarse alignment and a GICP-based fine registration in combination with
+a cost-based matching strategy. Our approach can be applied to any number of
+sensors and positions if there is a partial overlap between the field of view
+of single sensors. We show that our pipeline is better generalized to different
+sensor setups and scenarios and is on par or better in calibration accuracy
+than existing approaches. The presented framework is integrated in ROS 2 but
+can also be used as a standalone application. To build upon our work, our
+source code is available at: https://github.com/TUMFTM/Multi_LiCa.","Dominik Kulmer, Ilir Tahiraj, Andrii Chumak, Markus Lienkamp",2025-01-19T15:56:04Z,2025-01-19T15:56:04Z,http://arxiv.org/abs/2501.11088v1,http://arxiv.org/pdf/2501.11088v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+EVOLVE: Emotion and Visual Output Learning via LLM Evaluation,"Human acceptance of social robots is greatly effected by empathy and
+perceived understanding. This necessitates accurate and flexible responses to
+various input data from the user. While systems such as this can become
+increasingly complex as more states or response types are included, new
+research in the application of large language models towards human-robot
+interaction has allowed for more streamlined perception and reaction pipelines.
+LLM-selected actions and emotional expressions can help reinforce the realism
+of displayed empathy and allow for improved communication between the robot and
+user. Beyond portraying empathy in spoken or written responses, this shows the
+possibilities of using LLMs in actuated, real world scenarios. In this work we
+extend research in LLM-driven nonverbal behavior for social robots by
+considering more open-ended emotional response selection leveraging new
+advances in vision-language models, along with emotionally aligned motion and
+color pattern selections that strengthen conveyance of meaning and empathy.","Jordan Sinclair, Christopher Reardon",2024-12-30T00:43:31Z,2024-12-30T00:43:31Z,http://arxiv.org/abs/2412.20632v1,http://arxiv.org/pdf/2412.20632v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Unified Understanding of Environment, Task, and Human for Human-Robot
+  Interaction in Real-World Environments","To facilitate human--robot interaction (HRI) tasks in real-world scenarios,
+service robots must adapt to dynamic environments and understand the required
+tasks while effectively communicating with humans. To accomplish HRI in
+practice, we propose a novel indoor dynamic map, task understanding system, and
+response generation system. The indoor dynamic map optimizes robot behavior by
+managing an occupancy grid map and dynamic information, such as furniture and
+humans, in separate layers. The task understanding system targets tasks that
+require multiple actions, such as serving ordered items. Task representations
+that predefine the flow of necessary actions are applied to achieve highly
+accurate understanding. The response generation system is executed in parallel
+with task understanding to facilitate smooth HRI by informing humans of the
+subsequent actions of the robot. In this study, we focused on waiter duties in
+a restaurant setting as a representative application of HRI in a dynamic
+environment. We developed an HRI system that could perform tasks such as
+serving food and cleaning up while communicating with customers. In experiments
+conducted in a simulated restaurant environment, the proposed HRI system
+successfully communicated with customers and served ordered food with 90\%
+accuracy. In a questionnaire administered after the experiment, the HRI system
+of the robot received 4.2 points out of 5. These outcomes indicated the
+effectiveness of the proposed method and HRI system in executing waiter tasks
+in real-world environments.","Yuga Yano, Akinobu Mizutani, Yukiya Fukuda, Daiju Kanaoka, Tomohiro Ono, Hakaru Tamukoh",2024-12-18T11:05:56Z,2024-12-18T11:05:56Z,http://arxiv.org/abs/2412.13726v1,http://arxiv.org/pdf/2412.13726v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue,"Efficient path optimization for drones in search and rescue operations faces
+challenges, including limited visibility, time constraints, and complex
+information gathering in urban environments. We present a comprehensive
+approach to optimize UAV-based search and rescue operations in neighborhood
+areas, utilizing both a 3D AirSim-ROS2 simulator and a 2D simulator. The path
+planning problem is formulated as a partially observable Markov decision
+process (POMDP), and we propose a novel ``Shrinking POMCP'' approach to address
+time constraints. In the AirSim environment, we integrate our approach with a
+probabilistic world model for belief maintenance and a neurosymbolic navigator
+for obstacle avoidance. The 2D simulator employs surrogate ROS2 nodes with
+equivalent functionality. We compare trajectories generated by different
+approaches in the 2D simulator and evaluate performance across various belief
+types in the 3D AirSim-ROS simulator. Experimental results from both simulators
+demonstrate that our proposed shrinking POMCP solution achieves significant
+improvements in search times compared to alternative methods, showcasing its
+potential for enhancing the efficiency of UAV-assisted search and rescue
+operations.","Yunuo Zhang, Baiting Luo, Ayan Mukhopadhyay, Daniel Stojcsics, Daniel Elenius, Anirban Roy, Susmit Jha, Miklos Maroti, Xenofon Koutsoukos, Gabor Karsai, Abhishek Dubey",2024-11-20T01:41:29Z,2024-11-20T01:41:29Z,http://arxiv.org/abs/2411.12967v1,http://arxiv.org/pdf/2411.12967v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Analysing Explanation-Related Interactions in Collaborative
+  Perception-Cognition-Communication-Action","Effective communication is essential in collaborative tasks, so AI-equipped
+robots working alongside humans need to be able to explain their behaviour in
+order to cooperate effectively and earn trust. We analyse and classify
+communications among human participants collaborating to complete a simulated
+emergency response task. The analysis identifies messages that relate to
+various kinds of interactive explanations identified in the explainable AI
+literature. This allows us to understand what type of explanations humans
+expect from their teammates in such settings, and thus where AI-equipped robots
+most need explanation capabilities. We find that most explanation-related
+messages seek clarification in the decisions or actions taken. We also confirm
+that messages have an impact on the performance of our simulated task.","Marc Roig Vilamala, Jack Furby, Julian de Gortari Briseno, Mani Srivastava, Alun Preece, Carolina Fuentes Toro",2024-11-19T13:07:04Z,2024-11-19T13:07:04Z,http://arxiv.org/abs/2411.12483v1,http://arxiv.org/pdf/2411.12483v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"cHyRRT and cHySST: Two Motion Planning Tools for Hybrid Dynamical
+  Systems","This paper presents two implementations of the recently developed motion
+planning algorithms HyRRT arXiv:2210.1508(2) and HySST arXiv:2305.1864(9).
+Specifically, cHyRRT, an implementation of the HyRRT algorithm, generates
+solutions to motion planning problems for hybrid systems with a probabilistic
+completeness guarantee, while cHySST, an implementation of the asymptotically
+near-optimal HySST algorithm, finds near-optimal trajectories based on a
+user-defined cost function. The implementations align with the theoretical
+foundations of hybrid system theory and are designed based on OMPL, ensuring
+compatibility with ROS while prioritizing computational efficiency. The
+structure, components, and usage of both tools are detailed. A modified pinball
+game and collision-resilient tensegrity multicopter example are provided to
+illustrate the tools' key capabilities.","Beverly Xu, Nan Wang, Ricardo Sanfelice",2024-11-18T18:27:37Z,2025-07-06T03:41:28Z,http://arxiv.org/abs/2411.11812v3,http://arxiv.org/pdf/2411.11812v3.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"VECTOR: Velocity-Enhanced GRU Neural Network for Real-Time 3D UAV
+  Trajectory Prediction","This paper tackles the challenge of real-time 3D trajectory prediction for
+UAVs, which is critical for applications such as aerial surveillance and
+defense. Existing prediction models that rely primarily on position data
+struggle with accuracy, especially when UAV movements fall outside the position
+domain used in training. Our research identifies a gap in utilizing velocity
+estimates, first-order dynamics, to better capture the dynamics and enhance
+prediction accuracy and generalizability in any position domain. To bridge this
+gap, we propose a new trajectory prediction method using Gated Recurrent Units
+(GRUs) within sequence-based neural networks. Unlike traditional methods that
+rely on RNNs or transformers, this approach forecasts future velocities and
+positions based on historical velocity data instead of positions. This is
+designed to enhance prediction accuracy and scalability, overcoming challenges
+faced by conventional models in handling complex UAV dynamics. The methodology
+employs both synthetic and real-world 3D UAV trajectory data, capturing a wide
+range of flight patterns, speeds, and agility. Synthetic data is generated
+using the Gazebo simulator and PX4 Autopilot, while real-world data comes from
+the UZH-FPV and Mid-Air drone racing datasets. The GRU-based models
+significantly outperform state-of-the-art RNN approaches, with a mean square
+error (MSE) as low as 2 x 10^-8. Overall, our findings confirm the
+effectiveness of incorporating velocity data in improving the accuracy of UAV
+trajectory predictions across both synthetic and real-world scenarios, in and
+out of position data distributions. Finally, we open-source our 5000
+trajectories dataset and a ROS 2 package to facilitate the integration with
+existing ROS-based UAV systems.","Omer Nacar, Mohamed Abdelkader, Lahouari Ghouti, Kahled Gabr, Abdulrahman S. Al-Batati, Anis Koubaa",2024-10-24T07:16:42Z,2024-10-24T07:16:42Z,http://arxiv.org/abs/2410.23305v1,http://arxiv.org/pdf/2410.23305v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Leveraging Augmented Reality for Improved Situational Awareness During
+  UAV-Driven Search and Rescue Missions","In the high-stakes domain of search-and-rescue missions, the deployment of
+Unmanned Aerial Vehicles (UAVs) has become increasingly pivotal. These missions
+require seamless, real-time communication among diverse roles within response
+teams, particularly between Remote Operators (ROs) and On-Site Operators
+(OSOs). Traditionally, ROs and OSOs have relied on radio communication to
+exchange critical information, such as the geolocation of victims, hazardous
+areas, and points of interest. However, radio communication lacks information
+visualization, suffers from noise, and requires mental effort to interpret
+information, leading to miscommunications and misunderstandings. To address
+these challenges, this paper presents VizCom-AR, an Augmented Reality system
+designed to facilitate visual communication between ROs and OSOs and their
+situational awareness during UAV-driven search-and-rescue missions. Our
+experiments, focus group sessions with police officers, and field study showed
+that VizCom-AR enhances spatial awareness of both ROs and OSOs, facilitate
+geolocation information exchange, and effectively complement existing
+communication tools in UAV-driven emergency response missions. Overall,
+VizCom-AR offers a fundamental framework for designing Augmented Reality
+systems for large scale UAV-driven rescue missions.","Rushikesh Nalamothu, Puneet Sontha, Janardhan Karravula, Ankit Agrawal",2024-10-16T13:32:37Z,2024-10-16T13:32:37Z,http://arxiv.org/abs/2410.12556v1,http://arxiv.org/pdf/2410.12556v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"What Am I? Evaluating the Effect of Language Fluency and Task Competency
+  on the Perception of a Social Robot","Recent advancements in robot capabilities have enabled them to interact with
+people in various human-social environments (HSEs). In many of these
+environments, the perception of the robot often depends on its capabilities,
+e.g., task competency, language fluency, etc. To enable fluent human-robot
+interaction (HRI) in HSEs, it is crucial to understand the impact of these
+capabilities on the perception of the robot. Although many works have
+investigated the effects of various robot capabilities on the robot's
+perception separately, in this paper, we present a large-scale HRI study (n =
+60) to investigate the combined impact of both language fluency and task
+competency on the perception of a robot. The results suggest that while
+language fluency may play a more significant role than task competency in the
+perception of the verbal competency of a robot, both language fluency and task
+competency contribute to the perception of the intelligence and reliability of
+the robot. The results also indicate that task competency may play a more
+significant role than language fluency in the perception of meeting
+expectations and being a good teammate. The findings of this study highlight
+the relationship between language fluency and task competency in the context of
+social HRI and will enable the development of more intelligent robots in the
+future.","Shahira Ali, Haley N. Green, Tariq Iqbal",2024-10-14T20:51:16Z,2024-10-14T20:51:16Z,http://arxiv.org/abs/2410.11085v1,http://arxiv.org/pdf/2410.11085v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Dynamic Benchmarks: Spatial and Temporal Alignment for ADS Performance
+  Evaluation","Deployed SAE level 4+ Automated Driving Systems (ADS) without a human driver
+are currently operational ride-hailing fleets on surface streets in the United
+States. This current use case and future applications of this technology will
+determine where and when the fleets operate, potentially resulting in a
+divergence from the distribution of driving of some human benchmark population
+within a given locality. Existing benchmarks for evaluating ADS performance
+have only done county-level geographical matching of the ADS and benchmark
+driving exposure in crash rates. This study presents a novel methodology for
+constructing dynamic human benchmarks that adjust for spatial and temporal
+variations in driving distribution between an ADS and the overall human driven
+fleet. Dynamic benchmarks were generated using human police-reported crash
+data, human vehicle miles traveled (VMT) data, and over 20 million miles of
+Waymo's rider-only (RO) operational data accumulated across three US counties.
+The spatial adjustment revealed significant differences across various severity
+levels in adjusted crash rates compared to unadjusted benchmarks with these
+differences ranging from 10% to 47% higher in San Francisco, 12% to 20% higher
+in Maricopa, and 7% lower to 34% higher in Los Angeles counties. The
+time-of-day adjustment in San Francisco, limited to this region due to data
+availability, resulted in adjusted crash rates 2% lower to 16% higher than
+unadjusted rates, depending on severity level. The findings underscore the
+importance of adjusting for spatial and temporal confounders in benchmarking
+analysis, which ultimately contributes to a more equitable benchmark for ADS
+performance evaluations.","Yin-Hsiu Chen, John M. Scanlon, Kristofer D. Kusano, Timothy L. McMurry, Trent Victor",2024-10-11T15:23:58Z,2024-10-11T15:23:58Z,http://arxiv.org/abs/2410.08903v1,http://arxiv.org/pdf/2410.08903v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Soothing Sensations: Enhancing Interactions with a Socially Assistive
+  Robot through Vibrotactile Heartbeats","Physical interactions with socially assistive robots (SARs) positively affect
+user wellbeing. However, haptic experiences when touching a SAR are typically
+limited to perceiving the robot's movements or shell texture, while other
+modalities that could enhance the touch experience with the robot, such as
+vibrotactile stimulation, are under-explored. In this exploratory qualitative
+study, we investigate the potential of enhancing human interaction with the
+PARO robot through vibrotactile heartbeats, with the goal to regulate
+subjective wellbeing during stressful situations. We conducted in-depth
+one-on-one interviews with 30 participants, who watched three horror movie
+clips alone, with PARO, and with a PARO that displayed a vibrotactile
+heartbeat. Our findings show that PARO's presence and its interactive
+capabilities can help users regulate emotions through attentional redeployment
+from a stressor toward the robot. The vibrotactile heartbeat further reinforced
+PARO's physical and social presence, enhancing the socio-emotional support
+provided by the robot and its perceived life-likeness. We discuss the impact of
+individual differences in user experience and implications for the future
+design of life-like vibrotactile stimulation for SARs.","Jacqueline Borgstedt, Shaun Macdonald, Karola Marky, Frank E. Pollick, Stephen A. Brewster",2024-10-10T13:15:06Z,2024-10-10T13:15:06Z,http://arxiv.org/abs/2410.07892v1,http://arxiv.org/pdf/2410.07892v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Custom Non-Linear Model Predictive Control for Obstacle Avoidance in
+  Indoor and Outdoor Environments","Navigating complex environments requires Unmanned Aerial Vehicles (UAVs) and
+autonomous systems to perform trajectory tracking and obstacle avoidance in
+real-time. While many control strategies have effectively utilized linear
+approximations, addressing the non-linear dynamics of UAV, especially in
+obstacle-dense environments, remains a key challenge that requires further
+research. This paper introduces a Non-linear Model Predictive Control (NMPC)
+framework for the DJI Matrice 100, addressing these challenges by using a
+dynamic model and B-spline interpolation for smooth reference trajectories,
+ensuring minimal deviation while respecting safety constraints. The framework
+supports various trajectory types and employs a penalty-based cost function for
+control accuracy in tight maneuvers. The framework utilizes CasADi for
+efficient real-time optimization, enabling the UAV to maintain robust operation
+even under tight computational constraints. Simulation and real-world indoor
+and outdoor experiments demonstrated the NMPC ability to adapt to disturbances,
+resulting in smooth, collision-free navigation.","Lara Laban, Mariusz Wzorek, Piotr Rudol, Tommy Persson",2024-10-03T17:50:19Z,2024-10-03T17:50:19Z,http://arxiv.org/abs/2410.02732v1,http://arxiv.org/pdf/2410.02732v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Precise Workcell Sketching from Point Clouds Using an AR Toolbox,"Capturing real-world 3D spaces as point clouds is efficient and descriptive,
+but it comes with sensor errors and lacks object parametrization. These
+limitations render point clouds unsuitable for various real-world applications,
+such as robot programming, without extensive post-processing (e.g., outlier
+removal, semantic segmentation). On the other hand, CAD modeling provides
+high-quality, parametric representations of 3D space with embedded semantic
+data, but requires manual component creation that is time-consuming and costly.
+To address these challenges, we propose a novel solution that combines the
+strengths of both approaches. Our method for 3D workcell sketching from point
+clouds allows users to refine raw point clouds using an Augmented Reality (AR)
+interface that leverages their knowledge and the real-world 3D environment. By
+utilizing a toolbox and an AR-enabled pointing device, users can enhance point
+cloud accuracy based on the device's position in 3D space. We validate our
+approach by comparing it with ground truth models, demonstrating that it
+achieves a mean error within 1cm - significant improvement over standard LiDAR
+scanner apps.","Krzysztof Zieliński, Bruce Blumberg, Mikkel Baun Kjærgaard",2024-10-01T08:07:51Z,2024-10-01T08:07:51Z,http://arxiv.org/abs/2410.00479v1,http://arxiv.org/pdf/2410.00479v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"A Model-Agnostic Approach for Semantically Driven Disambiguation in
+  Human-Robot Interaction","Ambiguities are inevitable in human-robot interaction, especially when a
+robot follows user instructions in a large, shared space. For example, if a
+user asks the robot to find an object in a home environment with underspecified
+instructions, the object could be in multiple locations depending on missing
+factors. For instance, a bowl might be in the kitchen cabinet or on the dining
+room table, depending on whether it is clean or dirty, full or empty, and the
+presence of other objects around it. Previous works on object search have
+assumed that the queried object is immediately visible to the robot or have
+predicted object locations using one-shot inferences, which are likely to fail
+for ambiguous or partially understood instructions. This paper focuses on these
+gaps and presents a novel model-agnostic approach leveraging semantically
+driven clarifications to enhance the robot's ability to locate queried objects
+in fewer attempts. Specifically, we leverage different knowledge embedding
+models, and when ambiguities arise, we propose an informative clarification
+method, which follows an iterative prediction process. The user experiment
+evaluation of our method shows that our approach is applicable to different
+custom semantic encoders as well as LLMs, and informative clarifications
+improve performances, enabling the robot to locate objects on its first
+attempts. The user experiment data is publicly available at
+https://github.com/IrmakDogan/ExpressionDataset.","Fethiye Irmak Dogan, Maithili Patel, Weiyu Liu, Iolanda Leite, Sonia Chernova",2024-09-25T15:07:47Z,2025-04-02T13:51:04Z,http://arxiv.org/abs/2409.17004v2,http://arxiv.org/pdf/2409.17004v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+The 1st InterAI Workshop: Interactive AI for Human-centered Robotics,"The workshop is affiliated with 33nd IEEE International Conference on Robot
+and Human Interactive Communication (RO-MAN 2024) August 26~30, 2023 /
+Pasadena, CA, USA. It is designed as a half-day event, extending over four
+hours from 9:00 to 12:30 PST time. It accommodates both in-person and virtual
+attendees (via Zoom), ensuring a flexible participation mode. The agenda is
+thoughtfully crafted to include a diverse range of sessions: two keynote
+speeches that promise to provide insightful perspectives, two dedicated paper
+presentation sessions, an interactive panel discussion to foster dialogue among
+experts which facilitates deeper dives into specific topics, and a 15-minute
+coffee break. The workshop website:
+https://sites.google.com/view/interaiworkshops/home.","Yuchong Zhang, Elmira Yadollahi, Yong Ma, Di Fu, Iolanda Leite, Danica Kragic",2024-09-17T13:03:24Z,2024-10-11T11:26:42Z,http://arxiv.org/abs/2409.11150v2,http://arxiv.org/pdf/2409.11150v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Towards No-Code Programming of Cobots: Experiments with Code Synthesis
+  by Large Code Models for Conversational Programming","While there has been a lot of research recently on robots in household
+environments, at the present time, most robots in existence can be found on
+shop floors, and most interactions between humans and robots happen there.
+``Collaborative robots'' (cobots) designed to work alongside humans on assembly
+lines traditionally require expert programming, limiting ability to make
+changes, or manual guidance, limiting expressivity of the resulting programs.
+To address these limitations, we explore using Large Language Models (LLMs),
+and in particular, their abilities of doing in-context learning, for
+conversational code generation. As a first step, we define RATS, the
+``Repetitive Assembly Task'', a 2D building task designed to lay the foundation
+for simulating industry assembly scenarios. In this task, a `programmer'
+instructs a cobot, using natural language, on how a certain assembly is to be
+built; that is, the programmer induces a program, through natural language. We
+create a dataset that pairs target structures with various example instructions
+(human-authored, template-based, and model-generated) and example code. With
+this, we systematically evaluate the capabilities of state-of-the-art LLMs for
+synthesising this kind of code, given in-context examples. Evaluating in a
+simulated environment, we find that LLMs are capable of generating accurate
+`first order code' (instruction sequences), but have problems producing
+`higher-order code' (abstractions such as functions, or use of loops).","Chalamalasetti Kranti, Sherzod Hakimov, David Schlangen",2024-09-17T10:04:50Z,2025-08-18T15:35:14Z,http://arxiv.org/abs/2409.11041v3,http://arxiv.org/pdf/2409.11041v3.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"A HeARTfelt Robot: Social Robot-Driven Deep Emotional Art Reflection
+  with Children","Social-emotional learning (SEL) skills are essential for children to develop
+to provide a foundation for future relational and academic success. Using art
+as a medium for creation or as a topic to provoke conversation is a well-known
+method of SEL learning. Similarly, social robots have been used to teach SEL
+competencies like empathy, but the combination of art and social robotics has
+been minimally explored. In this paper, we present a novel child-robot
+interaction designed to foster empathy and promote SEL competencies via a
+conversation about art scaffolded by a social robot. Participants (N=11, age
+range: 7-11) conversed with a social robot about emotional and neutral art.
+Analysis of video and speech data demonstrated that this interaction design
+successfully engaged children in the practice of SEL skills, like emotion
+recognition and self-awareness, and greater rates of empathetic reasoning were
+observed when children engaged with the robot about emotional art. This study
+demonstrated that art-based reflection with a social robot, particularly on
+emotional art, can foster empathy in children, and interactions with a social
+robot help alleviate discomfort when sharing deep or vulnerable emotions.","Isabella Pu, Golda Nguyen, Lama Alsultan, Rosalind Picard, Cynthia Breazeal, Sharifa Alghowinem",2024-09-16T20:29:20Z,2024-09-16T20:29:20Z,http://arxiv.org/abs/2409.10710v1,http://arxiv.org/pdf/2409.10710v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Kinesthetic Teaching in Robotics: a Mixed Reality Approach,"As collaborative robots become more common in manufacturing scenarios and
+adopted in hybrid human-robot teams, we should develop new interaction and
+communication strategies to ensure smooth collaboration between agents. In this
+paper, we propose a novel communicative interface that uses Mixed Reality as a
+medium to perform Kinesthetic Teaching (KT) on any robotic platform. We
+evaluate our proposed approach in a user study involving multiple subjects and
+two different robots, comparing traditional physical KT with holographic-based
+KT through user experience questionnaires and task-related metrics.","Simone Macci`o, Mohamad Shaaban, Alessandro Carf`ı, Fulvio Mastrogiovanni",2024-09-03T21:32:16Z,2024-09-03T21:32:16Z,http://arxiv.org/abs/2409.02305v1,http://arxiv.org/pdf/2409.02305v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Do Mistakes Matter? Comparing Trust Responses of Different Age Groups to
+  Errors Made by Physically Assistive Robots","Trust is a key factor in ensuring acceptable human-robot interaction,
+especially in settings where robots may be assisting with critical activities
+of daily living. When practically deployed, robots are bound to make occasional
+mistakes, yet the degree to which these errors will impact a care recipient's
+trust in the robot, especially in performing physically assistive tasks,
+remains an open question. To investigate this, we conducted experiments where
+participants interacted with physically assistive robots which would
+occasionally make intentional mistakes while performing two different tasks:
+bathing and feeding. Our study considered the error response of two
+populations: younger adults at a university (median age 26) and older adults at
+an independent living facility (median age 83). We observed that the impact of
+errors on a users' trust in the robot depends on both their age and the task
+that the robot is performing. We also found that older adults tend to evaluate
+the robot on factors unrelated to the robot's performance, making their trust
+in the system more resilient to errors when compared to younger adults. Code
+and supplementary materials are available on our project webpage.","Sasha Wald, Kavya Puthuveetil, Zackory Erickson",2024-08-23T15:23:56Z,2024-08-23T15:23:56Z,http://arxiv.org/abs/2408.13153v1,http://arxiv.org/pdf/2408.13153v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Control-Theoretic Analysis of Shared Control Systems,"Users of shared control systems change their behavior in the presence of
+assistance, which conflicts with assumpts about user behavior that some
+assistance methods make. In this paper, we propose an analysis technique to
+evaluate the user's experience with the assistive systems that bypasses
+required assumptions: we model the assistance as a dynamical system that can be
+analyzed using control theory techniques. We analyze the shared autonomy
+assistance algorithm and make several observations: we identify a problem with
+runaway goal confidence and propose a system adjustment to mitigate it, we
+demonstrate that the system inherently limits the possible actions available to
+the user, and we show that in a simplified setting, the effect of the
+assistance is to drive the system to the convex hull of the goals and, once
+there, add a layer of indirection between the user control and the system
+behavior. We conclude by discussing the possible uses of this analysis for the
+field.","Reuben M. Aronson, Elaine Schaertl Short",2024-08-22T03:34:06Z,2024-08-22T03:34:06Z,http://arxiv.org/abs/2408.12103v1,http://arxiv.org/pdf/2408.12103v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Bidirectional Intent Communication: A Role for Large Foundation Models,"Integrating multimodal foundation models has significantly enhanced
+autonomous agents' language comprehension, perception, and planning
+capabilities. However, while existing works adopt a \emph{task-centric}
+approach with minimal human interaction, applying these models to developing
+assistive \emph{user-centric} robots that can interact and cooperate with
+humans remains underexplored. This paper introduces ``Bident'', a framework
+designed to integrate robots seamlessly into shared spaces with humans. Bident
+enhances the interactive experience by incorporating multimodal inputs like
+speech and user gaze dynamics. Furthermore, Bident supports verbal utterances
+and physical actions like gestures, making it versatile for bidirectional
+human-robot interactions. Potential applications include personalized
+education, where robots can adapt to individual learning styles and paces, and
+healthcare, where robots can offer personalized support, companionship, and
+everyday assistance in the home and workplace environments.","Tim Schreiter, Rishi Hazra, Jens Rüppel, Andrey Rudenko",2024-08-20T06:52:27Z,2024-08-20T06:52:27Z,http://arxiv.org/abs/2408.10589v1,http://arxiv.org/pdf/2408.10589v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Toward a Dialogue System Using a Large Language Model to Recognize User
+  Emotions with a Camera","The performance of ChatGPT\copyright{} and other LLMs has improved
+tremendously, and in online environments, they are increasingly likely to be
+used in a wide variety of situations, such as ChatBot on web pages, call center
+operations using voice interaction, and dialogue functions using agents. In the
+offline environment, multimodal dialogue functions are also being realized,
+such as guidance by Artificial Intelligence agents (AI agents) using tablet
+terminals and dialogue systems in the form of LLMs mounted on robots. In this
+multimodal dialogue, mutual emotion recognition between the AI and the user
+will become important. So far, there have been methods for expressing emotions
+on the part of the AI agent or for recognizing them using textual or voice
+information of the user's utterances, but methods for AI agents to recognize
+emotions from the user's facial expressions have not been studied. In this
+study, we examined whether or not LLM-based AI agents can interact with users
+according to their emotional states by capturing the user in dialogue with a
+camera, recognizing emotions from facial expressions, and adding such emotion
+information to prompts. The results confirmed that AI agents can have
+conversations according to the emotional state for emotional states with
+relatively high scores, such as Happy and Angry.","Hiroki Tanioka, Tetsushi Ueta, Masahiko Sano",2024-08-15T07:03:00Z,2025-02-18T12:48:27Z,http://arxiv.org/abs/2408.07982v2,http://arxiv.org/pdf/2408.07982v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"HADRON: Human-friendly Control and Artificial Intelligence for Military
+  Drone Operations","As drones are getting more and more entangled in our society, more untrained
+users require the capability to operate them. This scenario is to be achieved
+through the development of artificial intelligence capabilities assisting the
+human operator in controlling the Unmanned Aerial System (UAS) and processing
+the sensor data, thereby alleviating the need for extensive operator training.
+This paper presents the HADRON project that seeks to develop and test multiple
+novel technologies to enable human-friendly control of drone swarms. This
+project is divided into three main parts. The first part consists of the
+integration of different technologies for the intuitive control of drones,
+focusing on novice or inexperienced pilots and operators. The second part
+focuses on the development of a multi-drone system that will be controlled from
+a command and control station, in which an expert pilot can supervise the
+operations of the multiple drones. The third part of the project will focus on
+reducing the cognitive load on human operators, whether they are novice or
+expert pilots. For this, we will develop AI tools that will assist drone
+operators with semi-automated real-time data processing.","Ana M. Casado Faulí, Mario Malizia, Ken Hasselmann, Emile Le Flécher, Geert De Cubber, Ben Lauwens",2024-08-13T17:56:51Z,2024-08-13T17:56:51Z,http://arxiv.org/abs/2408.07063v1,http://arxiv.org/pdf/2408.07063v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"A Deep Reinforcement Learning Framework and Methodology for Reducing the
+  Sim-to-Real Gap in ASV Navigation","Despite the increasing adoption of Deep Reinforcement Learning (DRL) for
+Autonomous Surface Vehicles (ASVs), there still remain challenges limiting
+real-world deployment. In this paper, we first integrate buoyancy and
+hydrodynamics models into a modern Reinforcement Learning framework to reduce
+training time. Next, we show how system identification coupled with domain
+randomization improves the RL agent performance and narrows the sim-to-real
+gap. Real-world experiments for the task of capturing floating waste show that
+our approach lowers energy consumption by 13.1\% while reducing task completion
+time by 7.4\%. These findings, supported by sharing our open-source
+implementation, hold the potential to impact the efficiency and versatility of
+ASVs, contributing to environmental conservation efforts.","Luis F W Batista, Junghwan Ro, Antoine Richard, Pete Schroepfer, Seth Hutchinson, Cedric Pradalier",2024-07-11T08:03:34Z,2024-07-11T08:03:34Z,http://arxiv.org/abs/2407.08263v1,http://arxiv.org/pdf/2407.08263v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Eyes on the Game: Deciphering Implicit Human Signals to Infer Human
+  Proficiency, Trust, and Intent","Effective collaboration between humans and AIs hinges on transparent
+communication and alignment of mental models. However, explicit, verbal
+communication is not always feasible. Under such circumstances, human-human
+teams often depend on implicit, nonverbal cues to glean important information
+about their teammates such as intent and expertise, thereby bolstering team
+alignment and adaptability. Among these implicit cues, two of the most salient
+and fundamental are a human's actions in the environment and their visual
+attention. In this paper, we present a novel method to combine eye gaze data
+and behavioral data, and evaluate their respective predictive power for human
+proficiency, trust, and intent. We first collect a dataset of paired eye gaze
+and gameplay data in the fast-paced collaborative ""Overcooked"" environment. We
+then train models on this dataset to compare how the predictive powers differ
+between gaze data, gameplay data, and their combination. We additionally
+compare our method to prior works that aggregate eye gaze data and demonstrate
+how these aggregation methods can substantially reduce the predictive ability
+of eye gaze. Our results indicate that, while eye gaze data and gameplay data
+excel in different situations, a model that integrates both types consistently
+outperforms all baselines. This work paves the way for developing intuitive and
+responsive agents that can efficiently adapt to new teammates.","Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone",2024-07-03T17:37:19Z,2024-07-03T17:37:19Z,http://arxiv.org/abs/2407.03298v1,http://arxiv.org/pdf/2407.03298v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Learning Human-Robot Handshaking Preferences for Quadruped Robots,"Quadruped robots are showing impressive abilities to navigate the real world.
+If they are to become more integrated into society, social trust in
+interactions with humans will become increasingly important. Additionally,
+robots will need to be adaptable to different humans based on individual
+preferences. In this work, we study the social interaction task of learning
+optimal handshakes for quadruped robots based on user preferences. While
+maintaining balance on three legs, we parameterize handshakes with a Central
+Pattern Generator consisting of an amplitude, frequency, stiffness, and
+duration. Through 10 binary choices between handshakes, we learn a belief model
+to fit individual preferences for 25 different subjects. Our results show that
+this is an effective strategy, with 76% of users feeling happy with their
+identified optimal handshake parameters, and 20% feeling neutral. Moreover,
+compared with random and test handshakes, the optimized handshakes have
+significantly decreased errors in amplitude and frequency, lower Dynamic Time
+Warping scores, and improved energy efficiency, all of which indicate robot
+synchronization to the user's preferences. Video results can be found at
+https://youtu.be/elvPv8mq1KM .","Alessandra Chappuis, Guillaume Bellegarda, Auke Ijspeert",2024-06-28T13:00:44Z,2024-06-28T13:00:44Z,http://arxiv.org/abs/2406.19893v1,http://arxiv.org/pdf/2406.19893v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+RAVE: A Framework for Radar Ego-Velocity Estimation,"State estimation is an essential component of autonomous systems, usually
+relying on sensor fusion that integrates data from cameras, LiDARs and IMUs.
+Recently, radars have shown the potential to improve the accuracy and
+robustness of state estimation and perception, especially in challenging
+environmental conditions such as adverse weather and low-light scenarios. In
+this paper, we present a framework for ego-velocity estimation, which we call
+RAVE, that relies on 3D automotive radar data and encompasses zero velocity
+detection, outlier rejection, and velocity estimation. In addition, we propose
+a simple filtering method to discard infeasible ego-velocity estimates. We also
+conduct a systematic analysis of how different existing outlier rejection
+techniques and optimization loss functions impact estimation accuracy. Our
+evaluation on three open-source datasets demonstrates the effectiveness of the
+proposed filter and a significant positive impact of RAVE on the odometry
+accuracy. Furthermore, we release an open-source implementation of the proposed
+framework for radar ego-velocity estimation accompanied with a ROS interface.","Vlaho-Josip Štironja, Luka Petrović, Juraj Peršić, Ivan Marković, Ivan Petrović",2024-06-27T02:41:17Z,2024-06-27T02:41:17Z,http://arxiv.org/abs/2406.18850v1,http://arxiv.org/pdf/2406.18850v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Imagining In-distribution States: How Predictable Robot Behavior Can
+  Enable User Control Over Learned Policies","It is crucial that users are empowered to take advantage of the functionality
+of a robot and use their understanding of that functionality to perform novel
+and creative tasks. Given a robot trained with Reinforcement Learning (RL), a
+user may wish to leverage that autonomy along with their familiarity of how
+they expect the robot to behave to collaborate with the robot. One technique is
+for the user to take control of some of the robot's action space through
+teleoperation, allowing the RL policy to simultaneously control the rest. We
+formalize this type of shared control as Partitioned Control (PC). However,
+this may not be possible using an out-of-the-box RL policy. For example, a
+user's control may bring the robot into a failure state from the policy's
+perspective, causing it to act unexpectedly and hindering the success of the
+user's desired task. In this work, we formalize this problem and present
+Imaginary Out-of-Distribution Actions, IODA, an initial algorithm which
+empowers users to leverage their expectations of a robot's behavior to
+accomplish new tasks. We deploy IODA in a user study with a real robot and find
+that IODA leads to both better task performance and a higher degree of
+alignment between robot behavior and user expectation. We also show that in PC,
+there is a strong and significant correlation between task performance and the
+robot's ability to meet user expectations, highlighting the need for approaches
+like IODA. Code is available at https://github.com/AABL-Lab/ioda_roman_2024","Isaac Sheidlower, Emma Bethel, Douglas Lilly, Reuben M. Aronson, Elaine Schaertl Short",2024-06-19T17:08:28Z,2024-06-19T17:08:28Z,http://arxiv.org/abs/2406.13711v1,http://arxiv.org/pdf/2406.13711v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+I2EDL: Interactive Instruction Error Detection and Localization,"In the Vision-and-Language Navigation in Continuous Environments (VLN-CE)
+task, the human user guides an autonomous agent to reach a target goal via a
+series of low-level actions following a textual instruction in natural
+language. However, most existing methods do not address the likely case where
+users may make mistakes when providing such instruction (e.g. ""turn left""
+instead of ""turn right""). In this work, we address a novel task of Interactive
+VLN in Continuous Environments (IVLN-CE), which allows the agent to interact
+with the user during the VLN-CE navigation to verify any doubts regarding the
+instruction errors. We propose an Interactive Instruction Error Detector and
+Localizer (I2EDL) that triggers the user-agent interaction upon the detection
+of instruction errors during the navigation. We leverage a pre-trained module
+to detect instruction errors and pinpoint them in the instruction by
+cross-referencing the textual input and past observations. In such way, the
+agent is able to query the user for a timely correction, without demanding the
+user's cognitive load, as we locate the probable errors to a precise part of
+the instruction. We evaluate the proposed I2EDL on a dataset of instructions
+containing errors, and further devise a novel metric, the Success weighted by
+Interaction Number (SIN), to reflect both the navigation performance and the
+interaction effectiveness. We show how the proposed method can ask focused
+requests for corrections to the user, which in turn increases the navigation
+success, while minimizing the interactions.","Francesco Taioli, Stefano Rosa, Alberto Castellini, Lorenzo Natale, Alessio Del Bue, Alessandro Farinelli, Marco Cristani, Yiming Wang",2024-06-07T16:52:57Z,2024-06-23T22:58:46Z,http://arxiv.org/abs/2406.05080v2,http://arxiv.org/pdf/2406.05080v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"A Robust Filter for Marker-less Multi-person Tracking in Human-Robot
+  Interaction Scenarios","Pursuing natural and marker-less human-robot interaction (HRI) has been a
+long-standing robotics research focus, driven by the vision of seamless
+collaboration without physical markers. Marker-less approaches promise an
+improved user experience, but state-of-the-art struggles with the challenges
+posed by intrinsic errors in human pose estimation (HPE) and depth cameras.
+These errors can lead to issues such as robot jittering, which can
+significantly impact the trust users have in collaborative systems. We propose
+a filtering pipeline that refines incomplete 3D human poses from an HPE
+backbone and a single RGB-D camera to address these challenges, solving for
+occlusions that can degrade the interaction. Experimental results show that
+using the proposed filter leads to more consistent and noise-free motion
+representation, reducing unexpected robot movements and enabling smoother
+interaction.","Enrico Martini, Harshil Parekh, Shaoting Peng, Nicola Bombieri, Nadia Figueroa",2024-06-03T22:59:53Z,2024-06-03T22:59:53Z,http://arxiv.org/abs/2406.01832v1,http://arxiv.org/pdf/2406.01832v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"The use of a humanoid robot for older people with dementia in aged care
+  facilities","This paper presents an interdisciplinary PhD project using a humanoid robot
+to encourage interactive activities for people with dementia living in two aged
+care facilities. The aim of the project was to develop software and use
+technologies to achieve successful robot-led engagement with older people with
+dementia. This paper outlines the qualitative findings from the project's
+feasibility stage. The researcher's observations, the participants' attitudes
+and the feedback from carers are presented and discussed.","Dongjun Wu, Lihui Pu, Jun Jo, Rene Hexel, Wendy Moyle",2024-05-30T02:33:09Z,2024-05-30T02:33:09Z,http://arxiv.org/abs/2405.19630v1,http://arxiv.org/pdf/2405.19630v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Automated Parking Planning with Vision-Based BEV Approach,"Automated Valet Parking (AVP) is a crucial component of advanced autonomous
+driving systems, focusing on the endpoint task within the ""human-vehicle
+interaction"" process to tackle the challenges of the ""last mile"".The perception
+module of the automated parking algorithm has evolved from local perception
+using ultrasonic radar and global scenario precise map matching for
+localization to a high-level map-free Birds Eye View (BEV) perception
+solution.The BEV scene places higher demands on the real-time performance and
+safety of automated parking planning tasks. This paper proposes an improved
+automated parking algorithm based on the A* algorithm, integrating vehicle
+kinematic models, heuristic function optimization, bidirectional search, and
+Bezier curve optimization to enhance the computational speed and real-time
+capabilities of the planning algorithm.Numerical optimization methods are
+employed to generate the final parking trajectory, ensuring the safety of the
+parking path. The proposed approach is experimentally validated in the commonly
+used industrial CARLA-ROS joint simulation environment. Compared to traditional
+algorithms, this approach demonstrates reduced computation time with more
+challenging collision-risk test cases and improved performance in comfort
+metrics.",Yuxuan Zhao,2024-05-24T15:26:09Z,2024-05-24T15:26:09Z,http://arxiv.org/abs/2406.15430v1,http://arxiv.org/pdf/2406.15430v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Reward-Punishment Reinforcement Learning with Maximum Entropy,"We introduce the ``soft Deep MaxPain'' (softDMP) algorithm, which integrates
+the optimization of long-term policy entropy into reward-punishment
+reinforcement learning objectives. Our motivation is to facilitate a smoother
+variation of operators utilized in the updating of action values beyond
+traditional ``max'' and ``min'' operators, where the goal is enhancing sample
+efficiency and robustness. We also address two unresolved issues from the
+previous Deep MaxPain method. Firstly, we investigate how the negated
+(``flipped'') pain-seeking sub-policy, derived from the punishment action
+value, collaborates with the ``min'' operator to effectively learn the
+punishment module and how softDMP's smooth learning operator provides insights
+into the ``flipping'' trick. Secondly, we tackle the challenge of data
+collection for learning the punishment module to mitigate inconsistencies
+arising from the involvement of the ``flipped'' sub-policy (pain-avoidance
+sub-policy) in the unified behavior policy. We empirically explore the first
+issue in two discrete Markov Decision Process (MDP) environments, elucidating
+the crucial advancements of the DMP approach and the necessity for soft
+treatments on the hard operators. For the second issue, we propose a
+probabilistic classifier based on the ratio of the pain-seeking sub-policy to
+the sum of the pain-seeking and goal-reaching sub-policies. This classifier
+assigns roll-outs to separate replay buffers for updating reward and punishment
+action-value functions, respectively. Our framework demonstrates superior
+performance in Turtlebot 3's maze navigation tasks under the ROS Gazebo
+simulation.","Jiexin Wang, Eiji Uchibe",2024-05-20T05:05:14Z,2024-05-20T05:05:14Z,http://arxiv.org/abs/2405.11784v1,http://arxiv.org/pdf/2405.11784v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Fast LiDAR Upsampling using Conditional Diffusion Models,"The search for refining 3D LiDAR data has attracted growing interest
+motivated by recent techniques such as supervised learning or generative
+model-based methods. Existing approaches have shown the possibilities for using
+diffusion models to generate refined LiDAR data with high fidelity, although
+the performance and speed of such methods have been limited. These limitations
+make it difficult to execute in real-time, causing the approaches to struggle
+in real-world tasks such as autonomous navigation and human-robot interaction.
+In this work, we introduce a novel approach based on conditional diffusion
+models for fast and high-quality sparse-to-dense upsampling of 3D scene point
+clouds through an image representation. Our method employs denoising diffusion
+probabilistic models trained with conditional inpainting masks, which have been
+shown to give high performance on image completion tasks. We introduce a series
+of experiments, including multiple datasets, sampling steps, and conditional
+masks. This paper illustrates that our method outperforms the baselines in
+sampling speed and quality on upsampling tasks using the KITTI-360 dataset.
+Furthermore, we illustrate the generalization ability of our approach by
+simultaneously training on real-world and synthetic datasets, introducing
+variance in quality and environments.","Sander Elias Magnussen Helgesen, Kazuto Nakashima, Jim Tørresen, Ryo Kurazume",2024-05-08T08:38:28Z,2024-07-23T06:51:06Z,http://arxiv.org/abs/2405.04889v2,http://arxiv.org/pdf/2405.04889v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"A Containerized Microservice Architecture for a ROS 2 Autonomous Driving
+  Software: An End-to-End Latency Evaluation","The automotive industry is transitioning from traditional ECU-based systems
+to software-defined vehicles. A central role of this revolution is played by
+containers, lightweight virtualization technologies that enable the flexible
+consolidation of complex software applications on a common hardware platform.
+Despite their widespread adoption, the impact of containerization on
+fundamental real-time metrics such as end-to-end latency, communication jitter,
+as well as memory and CPU utilization has remained virtually unexplored. This
+paper presents a microservice architecture for a real-world autonomous driving
+application where containers isolate each service. Our comprehensive evaluation
+shows the benefits in terms of end-to-end latency of such a solution even over
+standard bare-Linux deployments. Specifically, in the case of the presented
+microservice architecture, the mean end-to-end latency can be improved by 5-8
+%. Also, the maximum latencies were significantly reduced using container
+deployment.","Tobias Betz, Long Wen, Fengjunjie Pan, Gemb Kaljavesi, Alexander Zuepke, Andrea Bastoni, Marco Caccamo, Alois Knoll, Johannes Betz",2024-04-19T07:33:45Z,2024-04-19T07:33:45Z,http://arxiv.org/abs/2404.12683v1,http://arxiv.org/pdf/2404.12683v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Learning Social Navigation from Demonstrations with Deep Neural Networks,"Traditional path-planning techniques treat humans as obstacles. This has
+changed since robots started to enter human environments. On modern robots,
+social navigation has become an important aspect of navigation systems. To use
+learning-based techniques to achieve social navigation, a powerful framework
+that is capable of representing complex functions with as few data as possible
+is required. In this study, we benefited from recent advances in deep learning
+at both global and local planning levels to achieve human-aware navigation on a
+simulated robot. Two distinct deep models are trained with respective
+objectives: one for global planning and one for local planning. These models
+are then employed in the simulated robot. In the end, it has been shown that
+our model can successfully carry out both global and local planning tasks. We
+have shown that our system could generate paths that successfully reach targets
+while avoiding obstacles with better performance compared to feed-forward
+neural networks.","Yigit Yildirim, Emre Ugur",2024-04-17T10:51:36Z,2024-04-17T10:51:36Z,http://arxiv.org/abs/2404.11246v1,http://arxiv.org/pdf/2404.11246v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Modeling social interaction dynamics using temporal graph networks,"Integrating intelligent systems, such as robots, into dynamic group settings
+poses challenges due to the mutual influence of human behaviors and internal
+states. A robust representation of social interaction dynamics is essential for
+effective human-robot collaboration. Existing approaches often narrow their
+focus to facial expressions or speech, overlooking the broader context. We
+propose employing an adapted Temporal Graph Networks to comprehensively
+represent social interaction dynamics while enabling its practical
+implementation. Our method incorporates temporal multi-modal behavioral data
+including gaze interaction, voice activity and environmental context. This
+representation of social interaction dynamics is trained as a link prediction
+problem using annotated gaze interaction data. The F1-score outperformed the
+baseline model by 37.0%. This improvement is consistent for a secondary task of
+next speaker prediction which achieves an improvement of 29.0%. Our
+contributions are two-fold, including a model to representing social
+interaction dynamics which can be used for many downstream human-robot
+interaction tasks like human state inference and next speaker prediction. More
+importantly, this is achieved using a more concise yet efficient message
+passing method, significantly reducing it from 768 to 14 elements, while
+outperforming the baseline model.","J. Taery Kim, Archit Naik, Isuru Jayarathne, Sehoon Ha, Jouh Yeong Chew",2024-04-05T10:00:16Z,2024-04-05T10:00:16Z,http://arxiv.org/abs/2404.06611v1,http://arxiv.org/pdf/2404.06611v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"PhysicsAssistant: An LLM-Powered Interactive Learning Robot for Physics
+  Lab Investigations","Robot systems in education can leverage Large language models' (LLMs) natural
+language understanding capabilities to provide assistance and facilitate
+learning. This paper proposes a multimodal interactive robot (PhysicsAssistant)
+built on YOLOv8 object detection, cameras, speech recognition, and chatbot
+using LLM to provide assistance to students' physics labs. We conduct a user
+study on ten 8th-grade students to empirically evaluate the performance of
+PhysicsAssistant with a human expert. The Expert rates the assistants'
+responses to student queries on a 0-4 scale based on Bloom's taxonomy to
+provide educational support. We have compared the performance of
+PhysicsAssistant (YOLOv8+GPT-3.5-turbo) with GPT-4 and found that the human
+expert rating of both systems for factual understanding is the same. However,
+the rating of GPT-4 for conceptual and procedural knowledge (3 and 3.2 vs 2.2
+and 2.6, respectively) is significantly higher than PhysicsAssistant (p <
+0.05). However, the response time of GPT-4 is significantly higher than
+PhysicsAssistant (3.54 vs 1.64 sec, p < 0.05). Hence, despite the relatively
+lower response quality of PhysicsAssistant than GPT-4, it has shown potential
+for being used as a real-time lab assistant to provide timely responses and can
+offload teachers' labor to assist with repetitive tasks. To the best of our
+knowledge, this is the first attempt to build such an interactive multimodal
+robotic assistant for K-12 science (physics) education.","Ehsan Latif, Ramviyas Parasuraman, Xiaoming Zhai",2024-03-27T16:11:49Z,2024-06-04T01:41:12Z,http://arxiv.org/abs/2403.18721v2,http://arxiv.org/pdf/2403.18721v2.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Extended Reality for Enhanced Human-Robot Collaboration: a
+  Human-in-the-Loop Approach","The rise of automation has provided an opportunity to achieve higher
+efficiency in manufacturing processes, yet it often compromises the flexibility
+required to promptly respond to evolving market needs and meet the demand for
+customization. Human-robot collaboration attempts to tackle these challenges by
+combining the strength and precision of machines with human ingenuity and
+perceptual understanding. In this paper, we conceptualize and propose an
+implementation framework for an autonomous, machine learning-based manipulator
+that incorporates human-in-the-loop principles and leverages Extended Reality
+(XR) to facilitate intuitive communication and programming between humans and
+robots. Furthermore, the conceptual framework foresees human involvement
+directly in the robot learning process, resulting in higher adaptability and
+task generalization. The paper highlights key technologies enabling the
+proposed framework, emphasizing the importance of developing the digital
+ecosystem as a whole. Additionally, we review the existent implementation
+approaches of XR in human-robot collaboration, showcasing diverse perspectives
+and methodologies. The challenges and future outlooks are discussed, delving
+into the major obstacles and potential research avenues of XR for more natural
+human-robot interaction and integration in the industrial landscape.","Yehor Karpichev, Todd Charter, Jayden Hong, Amir M. Soufi Enayati, Homayoun Honari, Mehran Ghafarian Tamizi, Homayoun Najjaran",2024-03-21T17:50:22Z,2024-10-31T21:33:32Z,http://arxiv.org/abs/2403.14597v3,http://arxiv.org/pdf/2403.14597v3.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Changing human's impression of empathy from agent by verbalizing agent's
+  position","As anthropomorphic agents (AI and robots) are increasingly used in society,
+empathy and trust between people and agents are becoming increasingly
+important. A better understanding of agents by people will help to improve the
+problems caused by the future use of agents in society. In the past, there has
+been a focus on the importance of self-disclosure and the relationship between
+agents and humans in their interactions. In this study, we focused on the
+attributes of self-disclosure and the relationship between agents and people.
+An experiment was conducted to investigate hypotheses on trust and empathy with
+agents through six attributes of self-disclosure (opinions and attitudes,
+hobbies, work, money, personality, and body) and through competitive and
+cooperative relationships before a robotic agent performs a joint task. The
+experiment consisted of two between-participant factors: six levels of
+self-disclosure attributes and two levels of relationship with the agent. The
+results showed that the two factors had no effect on trust in the agent, but
+there was statistical significance for the attribute of self-disclosure
+regarding a person's empathy toward the agent. In addition, statistical
+significance was found regarding the agent's ability to empathize with a person
+as perceived by the person only in the case where the type of relationship,
+competitive or cooperative, was presented. The results of this study could lead
+to an effective method for building relationships with agents, which are
+increasingly used in society.","Takahiro Tsumura, Seiji Yamada",2024-03-21T16:56:46Z,2024-03-21T16:56:46Z,http://arxiv.org/abs/2403.14557v1,http://arxiv.org/pdf/2403.14557v1.pdf,all:ROS AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"MUTE-DSS: A Digital-Twin-Based Decision Support System for Minimizing
+  Underwater Radiated Noise in Ship Voyage Planning","We present a novel MUTE-DSS, a digital-twin-based decision support system for
+minimizing underwater radiated noise (URN) during ship voyage planning. It is a
+ROS2-centric framework that integrates state-of-the-art acoustic models
+combining a semi-empirical reference spectrum for near-field modeling with 3D
+ray tracing for propagation losses for far-field modeling, offering real-time
+computation of the ship noise signature, alongside a data-driven Southern
+resident killer whale distribution model. The proposed DSS performs a two-stage
+optimization pipeline: Batch Informed Trees for collision-free ship routing and
+a genetic algorithm for adaptive ship speed profiling under voyage constraints
+that minimizes cumulative URN exposure to marine mammals. The effectiveness of
+MUTE-DSS is demonstrated through case studies of ships operating between the
+Strait of Georgia and the Strait of Juan de Fuca, comparing optimized voyages
+against baseline trajectories derived from automatic identification system
+data. Results show substantial reductions in noise exposure level, up to 7.14
+dB, corresponding to approximately an 80.68% reduction in a simplified
+scenario, and an average 4.90 dB reduction, corresponding to approximately a
+67.6% reduction in a more realistic dynamic setting. These results illustrate
+the adaptability and practical utility of the proposed decision support system.","Akash Venkateshwaran, Indu Kant Deo, Rajeev K. Jaiman",2025-08-03T20:02:56Z,2025-08-03T20:02:56Z,http://arxiv.org/abs/2508.01907v1,http://arxiv.org/pdf/2508.01907v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Autonomous UAV Navigation for Search and Rescue Missions Using Computer
+  Vision and Convolutional Neural Networks","In this paper, we present a subsystem, using Unmanned Aerial Vehicles (UAV),
+for search and rescue missions, focusing on people detection, face recognition
+and tracking of identified individuals. The proposed solution integrates a UAV
+with ROS2 framework, that utilizes multiple convolutional neural networks (CNN)
+for search missions. System identification and PD controller deployment are
+performed for autonomous UAV navigation. The ROS2 environment utilizes the
+YOLOv11 and YOLOv11-pose CNNs for tracking purposes, and the dlib library CNN
+for face recognition. The system detects a specific individual, performs face
+recognition and starts tracking. If the individual is not yet known, the UAV
+operator can manually locate the person, save their facial image and
+immediately initiate the tracking process. The tracking process relies on
+specific keypoints identified on the human body using the YOLOv11-pose CNN
+model. These keypoints are used to track a specific individual and maintain a
+safe distance. To enhance accurate tracking, system identification is
+performed, based on measurement data from the UAVs IMU. The identified system
+parameters are used to design PD controllers that utilize YOLOv11-pose to
+estimate the distance between the UAVs camera and the identified individual.
+The initial experiments, conducted on 14 known individuals, demonstrated that
+the proposed subsystem can be successfully used in real time. The next step
+involves implementing the system on a large experimental UAV for field use and
+integrating autonomous navigation with GPS-guided control for rescue operations
+planning.","Luka Šiktar, Branimir Ćaran, Bojan Šekoranja, Marko Švaco",2025-07-24T07:54:45Z,2025-07-24T07:54:45Z,http://arxiv.org/abs/2507.18160v1,http://arxiv.org/pdf/2507.18160v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Comparison of Localization Algorithms between Reduced-Scale and
+  Real-Sized Vehicles Using Visual and Inertial Sensors","Physically reduced-scale vehicles are emerging to accelerate the development
+of advanced automated driving functions. In this paper, we investigate the
+effects of scaling on self-localization accuracy with visual and
+visual-inertial algorithms using cameras and an inertial measurement unit
+(IMU). For this purpose, ROS2-compatible visual and visual-inertial algorithms
+are selected, and datasets are chosen as a baseline for real-sized vehicles. A
+test drive is conducted to record data of reduced-scale vehicles. We compare
+the selected localization algorithms, OpenVINS, VINS-Fusion, and RTAB-Map, in
+terms of their pose accuracy against the ground-truth and against data from
+real-sized vehicles. When comparing the implementation of the selected
+localization algorithms to real-sized vehicles, OpenVINS has the lowest average
+localization error. Although all selected localization algorithms have
+overlapping error ranges, OpenVINS also performs best when applied to a
+reduced-scale vehicle. When reduced-scale vehicles were compared to real-sized
+vehicles, minor differences were found in translational vehicle motion
+estimation accuracy. However, no significant differences were found when
+comparing the estimation accuracy of rotational vehicle motion, allowing RSVRs
+to be used as testing platforms for self-localization algorithms.","Tobias Kern, Leon Tolksdorf, Christian Birkner",2025-07-15T12:14:57Z,2025-07-15T12:14:57Z,http://arxiv.org/abs/2507.11241v1,http://arxiv.org/pdf/2507.11241v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"RF-Source Seeking with Obstacle Avoidance using Real-time Modified
+  Artificial Potential Fields in Unknown Environments","Navigation of UAVs in unknown environments with obstacles is essential for
+applications in disaster response and infrastructure monitoring. However,
+existing obstacle avoidance algorithms, such as Artificial Potential Field
+(APF) are unable to generalize across environments with different obstacle
+configurations. Furthermore, the precise location of the final target may not
+be available in applications such as search and rescue, in which case
+approaches such as RF source seeking can be used to align towards the target
+location. This paper proposes a real-time trajectory planning method, which
+involves real-time adaptation of APF through a sampling-based approach. The
+proposed approach utilizes only the bearing angle of the target without its
+precise location, and adjusts the potential field parameters according to the
+environment with new obstacle configurations in real time. The main
+contributions of the article are i) an RF source seeking algorithm to provide a
+bearing angle estimate using RF signal calculations based on antenna placement,
+and ii) a modified APF for adaptable collision avoidance in changing
+environments, which are evaluated separately in the simulation software Gazebo,
+using ROS2 for communication. Simulation results show that the RF
+source-seeking algorithm achieves high accuracy, with an average angular error
+of just 1.48 degrees, and with this estimate, the proposed navigation algorithm
+improves the success rate of reaching the target by 46% and reduces the
+trajectory length by 1.2% compared to standard potential fields.","Shahid Mohammad Mulla, Aryan Kanakapudi, Lakshmi Narasimhan, Anuj Tiwari",2025-06-07T14:20:58Z,2025-06-07T14:20:58Z,http://arxiv.org/abs/2506.06811v1,http://arxiv.org/pdf/2506.06811v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+A simulation framework for autonomous lunar construction work,"We present a simulation framework for lunar construction work involving
+multiple autonomous machines. The framework supports modelling of construction
+scenarios and autonomy solutions, execution of the scenarios in simulation, and
+analysis of work time and energy consumption throughout the construction
+project. The simulations are based on physics-based models for contacting
+multibody dynamics and deformable terrain, including vehicle-soil interaction
+forces and soil flow in real time. A behaviour tree manages the operational
+logic and error handling, which enables the representation of complex
+behaviours through a discrete set of simpler tasks in a modular hierarchical
+structure. High-level decision-making is separated from lower-level control
+algorithms, with the two connected via ROS2. Excavation movements are
+controlled through inverse kinematics and tracking controllers. The framework
+is tested and demonstrated on two different lunar construction scenarios that
+involve an excavator and dump truck with actively controlled articulated
+crawlers.","Mattias Linde, Daniel Lindmark, Sandra Ålstig, Martin Servin",2025-05-28T08:16:05Z,2025-08-12T07:41:09Z,http://arxiv.org/abs/2505.22091v2,http://arxiv.org/pdf/2505.22091v2.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2025
+"Investigating the Impact of Communication-Induced Action Space on
+  Exploration of Unknown Environments with Decentralized Multi-Agent
+  Reinforcement Learning","This paper introduces a novel enhancement to the Decentralized Multi-Agent
+Reinforcement Learning (D-MARL) exploration by proposing communication-induced
+action space to improve the mapping efficiency of unknown environments using
+homogeneous agents. Efficient exploration of large environments relies heavily
+on inter-agent communication as real-world scenarios are often constrained by
+data transmission limits, such as signal latency and bandwidth. Our proposed
+method optimizes each agent's policy using the heterogeneous-agent proximal
+policy optimization algorithm, allowing agents to autonomously decide whether
+to communicate or to explore, that is whether to share the locally collected
+maps or continue the exploration. We propose and compare multiple novel reward
+functions that integrate inter-agent communication and exploration, enhance
+mapping efficiency and robustness, and minimize exploration overlap. This
+article presents a framework developed in ROS2 to evaluate and validate the
+investigated architecture. Specifically, four TurtleBot3 Burgers have been
+deployed in a Gazebo-designed environment filled with obstacles to evaluate the
+efficacy of the trained policies in mapping the exploration arena.","Gabriele Calzolari, Vidya Sumathy, Christoforos Kanellakis, George Nikolakopoulos",2024-12-28T08:02:45Z,2024-12-28T08:02:45Z,http://arxiv.org/abs/2412.20075v1,http://arxiv.org/pdf/2412.20075v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"SMART-TRACK: A Novel Kalman Filter-Guided Sensor Fusion For Robust UAV
+  Object Tracking in Dynamic Environments","In the field of sensor fusion and state estimation for object detection and
+localization, ensuring accurate tracking in dynamic environments poses
+significant challenges. Traditional methods like the Kalman Filter (KF) often
+fail when measurements are intermittent, leading to rapid divergence in state
+estimations. To address this, we introduce SMART (Sensor Measurement
+Augmentation and Reacquisition Tracker), a novel approach that leverages
+high-frequency state estimates from the KF to guide the search for new
+measurements, maintaining tracking continuity even when direct measurements
+falter. This is crucial for dynamic environments where traditional methods
+struggle. Our contributions include: 1) Versatile Measurement Augmentation
+Using KF Feedback: We implement a versatile measurement augmentation system
+that serves as a backup when primary object detectors fail intermittently. This
+system is adaptable to various sensors, demonstrated using depth cameras where
+KF's 3D predictions are projected into 2D depth image coordinates, integrating
+nonlinear covariance propagation techniques simplified to first-order
+approximations. 2) Open-source ROS2 Implementation: We provide an open-source
+ROS2 implementation of the SMART-TRACK framework, validated in a realistic
+simulation environment using Gazebo and ROS2, fostering broader adaptation and
+further research. Our results showcase significant enhancements in tracking
+stability, with estimation RMSE as low as 0.04 m during measurement
+disruptions, advancing the robustness of UAV tracking and expanding the
+potential for reliable autonomous UAV operations in complex scenarios. The
+implementation is available at https://github.com/mzahana/SMART-TRACK.","Khaled Gabr, Mohamed Abdelkader, Imen Jarraya, Abdullah AlMusalami, Anis Koubaa",2024-10-14T12:01:01Z,2024-10-14T12:01:01Z,http://arxiv.org/abs/2410.10409v1,http://arxiv.org/pdf/2410.10409v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"ROS2-Based Simulation Framework for Cyberphysical Security Analysis of
+  UAVs","We present a new simulator of Uncrewed Aerial Vehicles (UAVs) that is
+  tailored to the needs of testing cyber-physical security attacks and
+  defenses. Recent investigations into UAV safety have unveiled various attack
+  surfaces and some defense mechanisms. However, due to escalating regulations
+  imposed by aviation authorities on security research on real UAVs, and the
+  substantial costs associated with hardware test-bed configurations, there
+  arises a necessity for a simulator capable of substituting for hardware
+  experiments, and/or narrowing down their scope to the strictly necessary.
+  The study of different attack mechanisms requires specific features in a
+  simulator. We propose a simulation framework based on ROS2, leveraging some
+  of its key advantages, including modularity, replicability, customization,
+  and the utilization of open-source tools such as Gazebo. Our framework has a
+  built-in motion planner, controller, communication models and attack models.
+  We share examples of research use cases that our framework can enable,
+  demonstrating its utility.","Unmesh Patil, Akshith Gunasekaran, Rakesh Bobba, Houssam Abbas",2024-10-04T23:23:54Z,2024-10-04T23:23:54Z,http://arxiv.org/abs/2410.03971v1,http://arxiv.org/pdf/2410.03971v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+Newton-Raphson Flow for Aggressive Quadrotor Tracking Control,"We apply the Newton-Raphson flow tracking controller to aggressive quadrotor
+flight and demonstrate that it achieves good tracking performance over a suite
+of benchmark trajectories, beating the native trajectory tracking controller in
+the popular PX4 Autopilot. The Newton-Raphson flow tracking controller is a
+recently proposed integrator-type controller that aims to drive to zero the
+error between a future predicted system output and the reference trajectory.
+This controller is computationally lightweight, requiring only an imprecise
+predictor, and achieves guaranteed asymptotic error bounds under certain
+conditions. We show that these theoretical advantages are realizable on a
+quadrotor hardware platform. Our experiments are conducted on a Holybrox x500v2
+quadrotor using a Pixhawk 6x flight controller and a Rasbperry Pi 4 companion
+computer which receives location information from an OptiTrack motion capture
+system and sends input commands through the ROS2 API for the PX4 software
+stack.","Evanns Morales-Cuadrado, Christian Llanes, Yorai Wardi, Samuel Coogan",2024-08-20T21:11:38Z,2024-08-20T21:11:38Z,http://arxiv.org/abs/2408.11197v1,http://arxiv.org/pdf/2408.11197v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"VIPS-Odom: Visual-Inertial Odometry Tightly-coupled with Parking Slots
+  for Autonomous Parking","Precise localization is of great importance for autonomous parking task since
+it provides service for the downstream planning and control modules, which
+significantly affects the system performance. For parking scenarios, dynamic
+lighting, sparse textures, and the instability of global positioning system
+(GPS) signals pose challenges for most traditional localization methods. To
+address these difficulties, we propose VIPS-Odom, a novel semantic
+visual-inertial odometry framework for underground autonomous parking, which
+adopts tightly-coupled optimization to fuse measurements from multi-modal
+sensors and solves odometry. Our VIPS-Odom integrates parking slots detected
+from the synthesized bird-eye-view (BEV) image with traditional feature points
+in the frontend, and conducts tightly-coupled optimization with joint
+constraints introduced by measurements from the inertial measurement unit,
+wheel speed sensor and parking slots in the backend. We develop a multi-object
+tracking framework to robustly track parking slots' states. To prove the
+superiority of our method, we equip an electronic vehicle with related sensors
+and build an experimental platform based on ROS2 system. Extensive experiments
+demonstrate the efficacy and advantages of our method compared with other
+baselines for parking scenarios.","Xuefeng Jiang, Fangyuan Wang, Rongzhang Zheng, Han Liu, Yixiong Huo, Jinzhang Peng, Lu Tian, Emad Barsoum",2024-07-06T09:21:25Z,2024-07-06T09:21:25Z,http://arxiv.org/abs/2407.05017v1,http://arxiv.org/pdf/2407.05017v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"Hybrid Force Motion Control with Estimated Surface Normal for
+  Manufacturing Applications","This paper proposes a hybrid force-motion framework that utilizes real-time
+surface normal updates. The surface normal is estimated via a novel method that
+leverages force sensing measurements and velocity commands to compensate the
+friction bias. This approach is critical for robust execution of precision
+force-controlled tasks in manufacturing, such as thermoplastic tape replacement
+that traces surfaces or paths on a workpiece subject to uncertainties deviated
+from the model. We formulated the proposed method and implemented the framework
+in ROS2 environment. The approach was validated using kinematic simulations and
+a hardware platform. Specifically, we demonstrated the approach on a 7-DoF
+manipulator equipped with a force/torque sensor at the end-effector.","Ehsan Nasiri, Long Wang",2024-04-05T21:38:38Z,2024-04-05T21:38:38Z,http://arxiv.org/abs/2404.04419v1,http://arxiv.org/pdf/2404.04419v1.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
+"GarchingSim: An Autonomous Driving Simulator with Photorealistic Scenes
+  and Minimalist Workflow","Conducting real road testing for autonomous driving algorithms can be
+expensive and sometimes impractical, particularly for small startups and
+research institutes. Thus, simulation becomes an important method for
+evaluating these algorithms. However, the availability of free and open-source
+simulators is limited, and the installation and configuration process can be
+daunting for beginners and interdisciplinary researchers. We introduce an
+autonomous driving simulator with photorealistic scenes, meanwhile keeping a
+user-friendly workflow. The simulator is able to communicate with external
+algorithms through ROS2 or Socket.IO, making it compatible with existing
+software stacks. Furthermore, we implement a highly accurate vehicle dynamics
+model within the simulator to enhance the realism of the vehicle's physical
+effects. The simulator is able to serve various functions, including generating
+synthetic data and driving with machine learning-based algorithms. Moreover, we
+prioritize simplicity in the deployment process, ensuring that beginners find
+it approachable and user-friendly.","Liguo Zhou, Yinglei Song, Yichao Gao, Zhou Yu, Michael Sodamin, Hongshen Liu, Liang Ma, Lian Liu, Hao Liu, Yang Liu, Haichuan Li, Guang Chen, Alois Knoll",2024-01-28T23:26:15Z,2024-01-30T15:57:22Z,http://arxiv.org/abs/2401.15803v2,http://arxiv.org/pdf/2401.15803v2.pdf,all:ROS2 AND all:robot AND submittedDate:[202309062229 TO 202509052229],2024
