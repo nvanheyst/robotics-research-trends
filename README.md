@@ -11,4 +11,4 @@ The worflow is generally:
 
 For analysis I am currently considering word maps, geographic maps of papers, comparing use of clearpath platforms versus others, comparing different types and sizes of platforms
 
-The target conclusion would be to determine ideal research platform type, size and features.  
+Trends in keywords or platform types over time could be insteresting

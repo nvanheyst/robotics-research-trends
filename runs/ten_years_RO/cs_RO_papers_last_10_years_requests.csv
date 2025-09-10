@@ -1,0 +1,384 @@
+title,summary,authors,published,url,pdf_url,categories
+"Deep Reactive Policy: Learning Reactive Manipulator Motion Planning for
+  Dynamic Environments","Generating collision-free motion in dynamic, partially observable
+environments is a fundamental challenge for robotic manipulators. Classical
+motion planners can compute globally optimal trajectories but require full
+environment knowledge and are typically too slow for dynamic scenes. Neural
+motion policies offer a promising alternative by operating in closed-loop
+directly on raw sensory inputs but often struggle to generalize in complex or
+dynamic settings. We propose Deep Reactive Policy (DRP), a visuo-motor neural
+motion policy designed for reactive motion generation in diverse dynamic
+environments, operating directly on point cloud sensory input. At its core is
+IMPACT, a transformer-based neural motion policy pretrained on 10 million
+generated expert trajectories across diverse simulation scenarios. We further
+improve IMPACT's static obstacle avoidance through iterative student-teacher
+finetuning. We additionally enhance the policy's dynamic obstacle avoidance at
+inference time using DCP-RMP, a locally reactive goal-proposal module. We
+evaluate DRP on challenging tasks featuring cluttered scenes, dynamic moving
+obstacles, and goal obstructions. DRP achieves strong generalization,
+outperforming prior classical and neural methods in success rate across both
+simulated and real-world settings. Video results and code available at
+https://deep-reactive-policy.com","Jiahui Yang, Jason Jingzhou Liu, Yulong Li, Youssef Khaky, Kenneth Shaw, Deepak Pathak",2025-09-08T17:59:35Z,http://arxiv.org/abs/2509.06953v1,http://arxiv.org/pdf/2509.06953v1.pdf,"cs.RO, cs.AI, cs.CV, cs.LG, cs.SY, eess.SY"
+"F1: A Vision-Language-Action Model Bridging Understanding and Generation
+  to Actions","Executing language-conditioned tasks in dynamic visual environments remains a
+central challenge in embodied AI. Existing Vision-Language-Action (VLA) models
+predominantly adopt reactive state-to-action mappings, often leading to
+short-sighted behaviors and poor robustness in dynamic scenes. In this paper,
+we introduce F1, a pretrained VLA framework which integrates the visual
+foresight generation into decision-making pipeline. F1 adopts a
+Mixture-of-Transformer architecture with dedicated modules for perception,
+foresight generation, and control, thereby bridging understanding, generation,
+and actions. At its core, F1 employs a next-scale prediction mechanism to
+synthesize goal-conditioned visual foresight as explicit planning targets. By
+forecasting plausible future visual states, F1 reformulates action generation
+as a foresight-guided inverse dynamics problem, enabling actions that
+implicitly achieve visual goals. To endow F1 with robust and generalizable
+capabilities, we propose a three-stage training recipe on an extensive dataset
+comprising over 330k trajectories across 136 diverse tasks. This training
+scheme enhances modular reasoning and equips the model with transferable visual
+foresight, which is critical for complex and dynamic environments. Extensive
+evaluations on real-world tasks and simulation benchmarks demonstrate F1
+consistently outperforms existing approaches, achieving substantial gains in
+both task success rate and generalization ability.","Qi Lv, Weijie Kong, Hao Li, Jia Zeng, Zherui Qiu, Delin Qu, Haoming Song, Qizhi Chen, Xiang Deng, Jiangmiao Pang",2025-09-08T17:58:30Z,http://arxiv.org/abs/2509.06951v2,http://arxiv.org/pdf/2509.06951v2.pdf,"cs.RO, cs.CV"
+"""It was Tragic"": Exploring the Impact of a Robot's Shutdown","It is well established that people perceive robots as social entities, even
+when they are not designed for social interaction. We evaluated whether the
+social interpretation of robotic gestures should also be considered when
+turning off a robot. In the experiment, participants engaged in a brief
+preliminary neutral interaction while a robotic arm showed interest in their
+actions. At the end of the task, participants were asked to turn off the
+robotic arm under two conditions: (1) a Non-designed condition, where all of
+the robot's engines were immediately and simultaneously turned off, as robots
+typically shut down; (2) a Designed condition, where the robot's engines
+gradually folded inward in a motion resembling ""falling asleep."" Our findings
+revealed that all participants anthropomorphized the robot's movement when it
+was turned off. In the Non-designed condition, most participants interpreted
+the robot's turn-off movement negatively, as if the robot had ""died."" In the
+Designed condition, most participants interpreted it more neutrally, stating
+that the robot ""went to sleep."" The robot's turn-off movement also impacted its
+perception, leading to higher likeability, perceived intelligence, and animacy
+in the Designed condition. We conclude that the impact of common edge
+interactions, such as turning off a robot, should be carefully designed while
+considering people's automatic tendency to perceive robots as social entities.","Agam Oberlender, Hadas Erel",2025-09-08T17:46:00Z,http://arxiv.org/abs/2509.06934v1,http://arxiv.org/pdf/2509.06934v1.pdf,"cs.HC, cs.RO"
+LLaDA-VLA: Vision Language Diffusion Action Models,"The rapid progress of auto-regressive vision-language models (VLMs) has
+inspired growing interest in vision-language-action models (VLA) for robotic
+manipulation. Recently, masked diffusion models, a paradigm distinct from
+autoregressive models, have begun to demonstrate competitive performance in
+text generation and multimodal applications, leading to the development of a
+series of diffusion-based VLMs (d-VLMs). However, leveraging such models for
+robot policy learning remains largely unexplored. In this work, we present
+LLaDA-VLA, the first Vision-Language-Diffusion-Action model built upon
+pretrained d-VLMs for robotic manipulation. To effectively adapt d-VLMs to
+robotic domain, we introduce two key designs: (1) a localized special-token
+classification strategy that replaces full-vocabulary classification with
+special action token classification, reducing adaptation difficulty; (2) a
+hierarchical action-structured decoding strategy that decodes action sequences
+hierarchically considering the dependencies within and across actions.
+Extensive experiments demonstrate that LLaDA-VLA significantly outperforms
+state-of-the-art VLAs on both simulation and real-world robots.","Yuqing Wen, Hebei Li, Kefan Gu, Yucheng Zhao, Tiancai Wang, Xiaoyan Sun",2025-09-08T17:45:40Z,http://arxiv.org/abs/2509.06932v1,http://arxiv.org/pdf/2509.06932v1.pdf,"cs.RO, cs.CV"
+Nanobot Algorithms for Treatment of Diffuse Cancer,"Motile nanosized particles, or ""nanobots"", promise more effective and less
+toxic targeted drug delivery because of their unique scale and precision. We
+consider the case in which the cancer is ""diffuse"", dispersed such that there
+are multiple distinct cancer sites. We investigate the problem of a swarm of
+nanobots locating these sites and treating them by dropping drug payloads at
+the sites. To improve the success of the treatment, the drug payloads must be
+allocated between sites according to their ""demands""; this requires extra
+nanobot coordination. We present a mathematical model of the behavior of the
+nanobot agents and of their colloidal environment. This includes a movement
+model for agents based upon experimental findings from actual nanoparticles in
+which bots noisily ascend and descend chemical gradients. We present three
+algorithms: The first algorithm, called KM, is the most representative of
+reality, with agents simply following naturally existing chemical signals that
+surround each cancer site. The second algorithm, KMA, includes an additional
+chemical payload which amplifies the existing natural signals. The third
+algorithm, KMAR, includes another additional chemical payload which counteracts
+the other signals, instead inducing negative chemotaxis in agents such that
+they are repelled from sites that are already sufficiently treated. We present
+simulation results for all algorithms across different types of cancer
+arrangements. For KM, we show that the treatment is generally successful unless
+the natural chemical signals are weak, in which case the treatment progresses
+too slowly. For KMA, we demonstrate a significant improvement in treatment
+speed but a drop in eventual success, except for concentrated cancer patterns.
+For KMAR, our results show great performance across all types of cancer
+patterns, demonstrating robustness and adaptability.","Noble Harasha, Nancy Lynch",2025-09-08T17:11:59Z,http://arxiv.org/abs/2509.06893v1,http://arxiv.org/pdf/2509.06893v1.pdf,"cs.MA, cs.RO, q-bio.QM"
+"Dynamic Modeling and Efficient Data-Driven Optimal Control for Micro
+  Autonomous Surface Vehicles","Micro Autonomous Surface Vehicles (MicroASVs) offer significant potential for
+operations in confined or shallow waters and swarm robotics applications.
+However, achieving precise and robust control at such small scales remains
+highly challenging, mainly due to the complexity of modeling nonlinear
+hydrodynamic forces and the increased sensitivity to self-motion effects and
+environmental disturbances, including waves and boundary effects in confined
+spaces. This paper presents a physics-driven dynamics model for an
+over-actuated MicroASV and introduces a data-driven optimal control framework
+that leverages a weak formulation-based online model learning method. Our
+approach continuously refines the physics-driven model in real time, enabling
+adaptive control that adjusts to changing system parameters. Simulation results
+demonstrate that the proposed method substantially enhances trajectory tracking
+accuracy and robustness, even under unknown payloads and external disturbances.
+These findings highlight the potential of data-driven online learning-based
+optimal control to improve MicroASV performance, paving the way for more
+reliable and precise autonomous surface vehicle operations.","Zhiheng Chen, Wei Wang",2025-09-08T17:01:04Z,http://arxiv.org/abs/2509.06882v1,http://arxiv.org/pdf/2509.06882v1.pdf,cs.RO
+"CRISP -- Compliant ROS2 Controllers for Learning-Based Manipulation
+  Policies and Teleoperation","Learning-based controllers, such as diffusion policies and vision-language
+action models, often generate low-frequency or discontinuous robot state
+changes. Achieving smooth reference tracking requires a low-level controller
+that converts high-level targets commands into joint torques, enabling
+compliant behavior during contact interactions. We present CRISP, a lightweight
+C++ implementation of compliant Cartesian and joint-space controllers for the
+ROS2 control standard, designed for seamless integration with high-level
+learning-based policies as well as teleoperation. The controllers are
+compatible with any manipulator that exposes a joint-torque interface. Through
+our Python and Gymnasium interfaces, CRISP provides a unified pipeline for
+recording data from hardware and simulation and deploying high-level
+learning-based policies seamlessly, facilitating rapid experimentation. The
+system has been validated on hardware with the Franka Robotics FR3 and in
+simulation with the Kuka IIWA14 and Kinova Gen3. Designed for rapid
+integration, flexible deployment, and real-time performance, our implementation
+provides a unified pipeline for data collection and policy execution, lowering
+the barrier to applying learning-based methods on ROS2-compatible manipulators.
+Detailed documentation is available at the project website -
+https://utiasDSL.github.io/crisp_controllers.","Daniel San José Pro, Oliver Hausdörfer, Ralf Römer, Maximilian Dösch, Martin Schuck, Angela P. Schöllig",2025-09-08T15:55:50Z,http://arxiv.org/abs/2509.06819v1,http://arxiv.org/pdf/2509.06819v1.pdf,cs.RO
+"Embodied Hazard Mitigation using Vision-Language Models for Autonomous
+  Mobile Robots","Autonomous robots operating in dynamic environments should identify and
+report anomalies. Embodying proactive mitigation improves safety and
+operational continuity. This paper presents a multimodal anomaly detection and
+mitigation system that integrates vision-language models and large language
+models to identify and report hazardous situations and conflicts in real-time.
+The proposed system enables robots to perceive, interpret, report, and if
+possible respond to urban and environmental anomalies through proactive
+detection mechanisms and automated mitigation actions. A key contribution in
+this paper is the integration of Hazardous and Conflict states into the robot's
+decision-making framework, where each anomaly type can trigger specific
+mitigation strategies. User studies (n = 30) demonstrated the effectiveness of
+the system in anomaly detection with 91.2% prediction accuracy and relatively
+low latency response times using edge-ai architecture.","Oluwadamilola Sotomi, Devika Kodi, Kiruthiga Chandra Shekar, Aliasghar Arab",2025-09-08T14:53:19Z,http://arxiv.org/abs/2509.06768v1,http://arxiv.org/pdf/2509.06768v1.pdf,cs.RO
+"Event Spectroscopy: Event-based Multispectral and Depth Sensing using
+  Structured Light","Uncrewed aerial vehicles (UAVs) are increasingly deployed in forest
+environments for tasks such as environmental monitoring and search and rescue,
+which require safe navigation through dense foliage and precise data
+collection. Traditional sensing approaches, including passive multispectral and
+RGB imaging, suffer from latency, poor depth resolution, and strong dependence
+on ambient light - especially under forest canopies. In this work, we present a
+novel event spectroscopy system that simultaneously enables high-resolution,
+low-latency depth reconstruction and multispectral imaging using a single
+sensor. Depth is reconstructed using structured light, and by modulating the
+wavelength of the projected structured light, our system captures spectral
+information in controlled bands between 650 nm and 850 nm. We demonstrate up to
+$60\%$ improvement in RMSE over commercial depth sensors and validate the
+spectral accuracy against a reference spectrometer and commercial multispectral
+cameras, demonstrating comparable performance. A portable version limited to
+RGB (3 wavelengths) is used to collect real-world depth and spectral data from
+a Masoala Rainforest. We demonstrate the use of this prototype for color image
+reconstruction and material differentiation between leaves and branches using
+spectral and depth data. Our results show that adding depth (available at no
+extra effort with our setup) to material differentiation improves the accuracy
+by over $30\%$ compared to color-only method. Our system, tested in both lab
+and real-world rainforest environments, shows strong performance in depth
+estimation, RGB reconstruction, and material differentiation - paving the way
+for lightweight, integrated, and robust UAV perception and data collection in
+complex natural environments.","Christian Geckeler, Niklas Neugebauer, Manasi Muglikar, Davide Scaramuzza, Stefano Mintchev",2025-09-08T14:34:55Z,http://arxiv.org/abs/2509.06741v1,http://arxiv.org/pdf/2509.06741v1.pdf,"cs.CV, cs.RO"
+"VehicleWorld: A Highly Integrated Multi-Device Environment for
+  Intelligent Vehicle Interaction","Intelligent vehicle cockpits present unique challenges for API Agents,
+requiring coordination across tightly-coupled subsystems that exceed typical
+task environments' complexity. Traditional Function Calling (FC) approaches
+operate statelessly, requiring multiple exploratory calls to build
+environmental awareness before execution, leading to inefficiency and limited
+error recovery. We introduce VehicleWorld, the first comprehensive environment
+for the automotive domain, featuring 30 modules, 250 APIs, and 680 properties
+with fully executable implementations that provide real-time state information
+during agent execution. This environment enables precise evaluation of vehicle
+agent behaviors across diverse, challenging scenarios. Through systematic
+analysis, we discovered that direct state prediction outperforms function
+calling for environmental control. Building on this insight, we propose
+State-based Function Call (SFC), a novel approach that maintains explicit
+system state awareness and implements direct state transitions to achieve
+target conditions. Experimental results demonstrate that SFC significantly
+outperforms traditional FC approaches, achieving superior execution accuracy
+and reduced latency. We have made all implementation code publicly available on
+Github https://github.com/OpenMOSS/VehicleWorld.","Jie Yang, Jiajun Chen, Zhangyue Yin, Shuo Chen, Yuxin Wang, Yiran Guo, Yuan Li, Yining Zheng, Xuanjing Huang, Xipeng Qiu",2025-09-08T14:28:25Z,http://arxiv.org/abs/2509.06736v1,http://arxiv.org/pdf/2509.06736v1.pdf,"cs.AI, cs.CL, cs.RO"
+"Safe Robust Predictive Control-based Motion Planning of Automated
+  Surface Vessels in Inland Waterways","Deploying self-navigating surface vessels in inland waterways offers a
+sustainable alternative to reduce road traffic congestion and emissions.
+However, navigating confined waterways presents unique challenges, including
+narrow channels, higher traffic density, and hydrodynamic disturbances.
+Existing methods for autonomous vessel navigation often lack the robustness or
+precision required for such environments. This paper presents a new motion
+planning approach for Automated Surface Vessels (ASVs) using Robust Model
+Predictive Control (RMPC) combined with Control Barrier Functions (CBFs). By
+incorporating channel borders and obstacles as safety constraints within the
+control design framework, the proposed method ensures both collision avoidance
+and robust navigation on complex waterways. Simulation results demonstrate the
+efficacy of the proposed method in safely guiding ASVs under realistic
+conditions, highlighting its improved safety and adaptability compared to the
+state-of-the-art.","Sajad Ahmadi, Hossein Nejatbakhsh Esfahani, Javad Mohammadpour Velni",2025-09-08T13:43:09Z,http://arxiv.org/abs/2509.06687v1,http://arxiv.org/pdf/2509.06687v1.pdf,"cs.RO, cs.SY, eess.SY"
+"An Adaptive Coverage Control Approach for Multiple Autonomous Off-road
+  Vehicles in Dynamic Agricultural Fields","This paper presents an adaptive coverage control method for a fleet of
+off-road and Unmanned Ground Vehicles (UGVs) operating in dynamic
+(time-varying) agricultural environments. Traditional coverage control
+approaches often assume static conditions, making them unsuitable for
+real-world farming scenarios where obstacles, such as moving machinery and
+uneven terrains, create continuous challenges. To address this, we propose a
+real-time path planning framework that integrates Unmanned Aerial Vehicles
+(UAVs) for obstacle detection and terrain assessment, allowing UGVs to
+dynamically adjust their coverage paths. The environment is modeled as a
+weighted directed graph, where the edge weights are continuously updated based
+on the UAV observations to reflect obstacle motion and terrain variations. The
+proposed approach incorporates Voronoi-based partitioning, adaptive edge weight
+assignment, and cost-based path optimization to enhance navigation efficiency.
+Simulation results demonstrate the effectiveness of the proposed method in
+improving path planning, reducing traversal costs, and maintaining robust
+coverage in the presence of dynamic obstacles and muddy terrains.","Sajad Ahmadi, Mohammadreza Davoodi, Javad Mohammadpour Velni",2025-09-08T13:38:39Z,http://arxiv.org/abs/2509.06682v1,http://arxiv.org/pdf/2509.06682v1.pdf,"cs.RO, cs.SY, eess.SY"
+"Online Clustering of Seafloor Imagery for Interpretation during
+  Long-Term AUV Operations","As long-endurance and seafloor-resident AUVs become more capable, there is an
+increasing need for extended, real-time interpretation of seafloor imagery to
+enable adaptive missions and optimise communication efficiency. Although
+offline image analysis methods are well established, they rely on access to
+complete datasets and human-labelled examples to manage the strong influence of
+environmental and operational conditions on seafloor image
+appearance-requirements that cannot be met in real-time settings. To address
+this, we introduce an online clustering framework (OCF) capable of interpreting
+seafloor imagery without supervision, which is designed to operate in real-time
+on continuous data streams in a scalable, adaptive, and self-consistent manner.
+The method enables the efficient review and consolidation of common patterns
+across the entire data history in constant time by identifying and maintaining
+a set of representative samples that capture the evolving feature distribution,
+supporting dynamic cluster merging and splitting without reprocessing the full
+image history. We evaluate the framework on three diverse seafloor image
+datasets, analysing the impact of different representative sampling strategies
+on both clustering accuracy and computational cost. The OCF achieves the
+highest average F1 score of 0.68 across the three datasets among all
+comparative online clustering approaches, with a standard deviation of 3%
+across three distinct survey trajectories, demonstrating its superior
+clustering capability and robustness to trajectory variation. In addition, it
+maintains consistently lower and bounded computational time as the data volume
+increases. These properties are beneficial for generating survey data summaries
+and supporting informative path planning in long-term, persistent autonomous
+marine exploration.","Cailei Liang, Adrian Bodenmann, Sam Fenton, Blair Thornton",2025-09-08T13:36:27Z,http://arxiv.org/abs/2509.06678v1,http://arxiv.org/pdf/2509.06678v1.pdf,"cs.CV, cs.RO"
+"Investigating Location-Regularised Self-Supervised Feature Learning for
+  Seafloor Visual Imagery","High-throughput interpretation of robotically gathered seafloor visual
+imagery can increase the efficiency of marine monitoring and exploration.
+Although recent research has suggested that location metadata can enhance
+self-supervised feature learning (SSL), its benefits across different SSL
+strategies, models and seafloor image datasets are underexplored. This study
+evaluates the impact of location-based regularisation on six state-of-the-art
+SSL frameworks, which include Convolutional Neural Network (CNN) and Vision
+Transformer (ViT) models with varying latent-space dimensionality. Evaluation
+across three diverse seafloor image datasets finds that location-regularisation
+consistently improves downstream classification performance over standard SSL,
+with average F1-score gains of $4.9 \pm 4.0%$ for CNNs and $6.3 \pm 8.9%$ for
+ViTs, respectively. While CNNs pretrained on generic datasets benefit from
+high-dimensional latent representations, dataset-optimised SSL achieves similar
+performance across the high (512) and low (128) dimensional latent
+representations. Location-regularised SSL improves CNN performance over
+pre-trained models by $2.7 \pm 2.7%$ and $10.1 \pm 9.4%$ for high and
+low-dimensional latent representations, respectively. For ViTs,
+high-dimensionality benefits both pre-trained and dataset-optimised SSL.
+Although location-regularisation improves SSL performance compared to standard
+SSL methods, pre-trained ViTs show strong generalisation, matching the
+best-performing location-regularised SSL with F1-scores of $0.795 \pm 0.075$
+and $0.795 \pm 0.077$, respectively. The findings highlight the value of
+location metadata for SSL regularisation, particularly when using
+low-dimensional latent representations, and demonstrate strong generalisation
+of high-dimensional ViTs for seafloor image analysis.","Cailei Liang, Adrian Bodenmann, Emma J Curtis, Samuel Simmons, Kazunori Nagano, Stan Brown, Adam Riese, Blair Thornton",2025-09-08T13:19:04Z,http://arxiv.org/abs/2509.06660v1,http://arxiv.org/pdf/2509.06660v1.pdf,"cs.CV, cs.RO"
+"T-araVLN: Translator for Agricultural Robotic Agents on
+  Vision-and-Language Navigation","Agricultural robotic agents have been becoming powerful helpers in a wide
+range of agricultural tasks, nevertheless, still heavily rely on manual
+operation or untransportable railway for movement. The AgriVLN method and the
+A2A benchmark pioneeringly extend Vision-and-Language Navigation (VLN) to the
+agricultural domain, enabling agents navigate to the target position following
+the natural language instructions. AgriVLN effectively understands the simple
+instructions, however, often misunderstands the complicated instructions. To
+bridge this gap, we propose the method of Translator for Agricultural Robotic
+Agents on Vision-and-Language Navigation (T-araVLN), in which the Instruction
+Translator module translates the original instruction to be both refined and
+precise. Being evaluated on the A2A benchmark, our T-araVLN effectively
+improves SR from 0.47 to 0.63 and reduces NE from 2.91m to 2.28m, demonstrating
+the state-of-the-art performance in the agricultural domain. Code:
+https://github.com/AlexTraveling/T-araVLN.","Xiaobei Zhao, Xingqi Lyu, Xiang Li",2025-09-08T12:59:36Z,http://arxiv.org/abs/2509.06644v2,http://arxiv.org/pdf/2509.06644v2.pdf,cs.RO
+LiHRA: A LiDAR-Based HRI Dataset for Automated Risk Monitoring Methods,"We present LiHRA, a novel dataset designed to facilitate the development of
+automated, learning-based, or classical risk monitoring (RM) methods for
+Human-Robot Interaction (HRI) scenarios. The growing prevalence of
+collaborative robots in industrial environments has increased the need for
+reliable safety systems. However, the lack of high-quality datasets that
+capture realistic human-robot interactions, including potentially dangerous
+events, slows development. LiHRA addresses this challenge by providing a
+comprehensive, multi-modal dataset combining 3D LiDAR point clouds, human body
+keypoints, and robot joint states, capturing the complete spatial and dynamic
+context of human-robot collaboration. This combination of modalities allows for
+precise tracking of human movement, robot actions, and environmental
+conditions, enabling accurate RM during collaborative tasks. The LiHRA dataset
+covers six representative HRI scenarios involving collaborative and coexistent
+tasks, object handovers, and surface polishing, with safe and hazardous
+versions of each scenario. In total, the data set includes 4,431 labeled point
+clouds recorded at 10 Hz, providing a rich resource for training and
+benchmarking classical and AI-driven RM algorithms. Finally, to demonstrate
+LiHRA's utility, we introduce an RM method that quantifies the risk level in
+each scenario over time. This method leverages contextual information,
+including robot states and the dynamic model of the robot. With its combination
+of high-resolution LiDAR data, precise human tracking, robot state data, and
+realistic collision events, LiHRA offers an essential foundation for future
+research into real-time RM and adaptive safety strategies in human-robot
+workspaces.","Frederik Plahl, Georgios Katranis, Ilshat Mamaev, Andrey Morozov",2025-09-08T12:07:08Z,http://arxiv.org/abs/2509.06597v1,http://arxiv.org/pdf/2509.06597v1.pdf,cs.RO
+"A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific
+  Modeling","Accurate odometry is a critical component in a robotic navigation stack, and
+subsequent modules such as planning and control often rely on an estimate of
+the robot's motion. Sensor-based odometry approaches should be robust across
+sensor types and deployable in different target domains, from solid-state
+LiDARs mounted on cars in urban-driving scenarios to spinning LiDARs on
+handheld packages used in unstructured natural environments. In this paper, we
+propose a robust LiDAR-inertial odometry system that does not rely on
+sensor-specific modeling. Sensor fusion techniques for LiDAR and inertial
+measurement unit (IMU) data typically integrate IMU data iteratively in a
+Kalman filter or use pre-integration in a factor graph framework, combined with
+LiDAR scan matching often exploiting some form of feature extraction. We
+propose an alternative strategy that only requires a simplified motion model
+for IMU integration and directly registers LiDAR scans in a scan-to-map
+approach. Our approach allows us to impose a novel regularization on the LiDAR
+registration, improving the overall odometry performance. We detail extensive
+experiments on a number of datasets covering a wide array of commonly used
+robotic sensors and platforms. We show that our approach works with the exact
+same configuration in all these scenarios, demonstrating its robustness. We
+have open-sourced our implementation so that the community can build further on
+our work and use it in their navigation stacks.","Meher V. R. Malladi, Tiziano Guadagnino, Luca Lobefaro, Cyrill Stachniss",2025-09-08T12:04:12Z,http://arxiv.org/abs/2509.06593v1,http://arxiv.org/pdf/2509.06593v1.pdf,cs.RO
+"Co-Located VR with Hybrid SLAM-based HMD Tracking and Motion Capture
+  Synchronization","We introduce a multi-user VR co-location framework that synchronizes users
+within a shared virtual environment aligned to physical space. Our approach
+combines a motion capture system with SLAM-based inside-out tracking to deliver
+smooth, high-framerate, low-latency performance. Previous methods either rely
+on continuous external tracking, which introduces latency and jitter, or on
+one-time calibration, which cannot correct drift over time. In contrast, our
+approach combines the responsiveness of local HMD SLAM tracking with the
+flexibility to realign to an external source when needed. It also supports
+real-time pose sharing across devices, ensuring consistent spatial alignment
+and engagement between users. Our evaluation demonstrates that our framework
+achieves the spatial accuracy required for natural multi-user interaction while
+offering improved comfort, scalability, and robustness over existing co-located
+VR solutions.","Carlos A. Pinheiro de Sousa, Niklas Gröne, Mathias Günther, Oliver Deussen",2025-09-08T11:54:56Z,http://arxiv.org/abs/2509.06582v1,http://arxiv.org/pdf/2509.06582v1.pdf,"cs.RO, cs.HC"
+Event Driven CBBA with Reduced Communication,"In various scenarios such as multi-drone surveillance and search-and-rescue
+operations, deploying multiple robots is essential to accomplish multiple tasks
+at once. Due to the limited communication range of these vehicles, a
+decentralised task allocation algorithm is crucial for effective task
+distribution among robots. The consensus-based bundle algorithm (CBBA) has been
+promising for multi-robot operation, offering theoretical guarantees. However,
+CBBA demands continuous communication, leading to potential congestion and
+packet loss that can hinder performance. In this study, we introduce an
+event-driven communication mechanism designed to address these communication
+challenges while maintaining the convergence and performance bounds of CBBA. We
+demonstrate theoretically that the solution quality matches that of CBBA and
+validate the approach with Monte-Carlo simulations across varying targets,
+agents, and bundles. Results indicate that the proposed algorithm (ED-CBBA) can
+reduce message transmissions by up to 52%.","Vinita Sao, Tu Dac Ho, Sujoy Bhore, P. B. Sujit",2025-09-08T09:45:25Z,http://arxiv.org/abs/2509.06481v1,http://arxiv.org/pdf/2509.06481v1.pdf,cs.RO
+Interactive Shaping of Granular Media Using Reinforcement Learning,"Autonomous manipulation of granular media, such as sand, is crucial for
+applications in construction, excavation, and additive manufacturing. However,
+shaping granular materials presents unique challenges due to their
+high-dimensional configuration space and complex dynamics, where traditional
+rule-based approaches struggle without extensive engineering efforts.
+Reinforcement learning (RL) offers a promising alternative by enabling agents
+to learn adaptive manipulation strategies through trial and error. In this
+work, we present an RL framework that enables a robotic arm with a cubic
+end-effector and a stereo camera to shape granular media into desired target
+structures. We show the importance of compact observations and concise reward
+formulations for the large configuration space, validating our design choices
+with an ablation study. Our results demonstrate the effectiveness of the
+proposed approach for the training of visual policies that manipulate granular
+media including their real-world deployment, significantly outperforming two
+baseline approaches in terms of target shape accuracy.","Benedikt Kreis, Malte Mosbach, Anny Ripke, Muhammad Ehsan Ullah, Sven Behnke, Maren Bennewitz",2025-09-08T09:30:22Z,http://arxiv.org/abs/2509.06469v2,http://arxiv.org/pdf/2509.06469v2.pdf,cs.RO

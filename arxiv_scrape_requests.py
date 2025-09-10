@@ -15,8 +15,6 @@ today = datetime.datetime.now()
 two_years_ago = today - datetime.timedelta(days=2 * 365)
 start_date = two_years_ago.strftime("%Y%m%d%H%M")
 end_date = today.strftime("%Y%m%d%H%M")
-
-# The date filter string
 date_filter = f"submittedDate:[{start_date} TO {end_date}]"
 
 # runs with keyword combinations of first_list and second_list
@@ -71,6 +69,9 @@ def query_arxiv_paginated(search_query, batch_size=100, max_batches=10):
             break
 
         for entry in batch_entries:
+            # categories = [cat.attrib['term'] for cat in entry.findall("{http://www.w3.org/2005/Atom}category")]
+            # primary_category = entry.find("{http://www.w3.org/2005/Atom}primary_category").attrib['term'] if entry.find("{http://www.w3.org/2005/Atom}primary_category") is not None else "N/A"
+          
             data = {
                 "title": entry.find("{http://www.w3.org/2005/Atom}title").text.strip(),
                 "summary": entry.find("{http://www.w3.org/2005/Atom}summary").text.strip(),
@@ -82,6 +83,8 @@ def query_arxiv_paginated(search_query, batch_size=100, max_batches=10):
                 "updated": entry.find("{http://www.w3.org/2005/Atom}updated").text,
                 "url": entry.find("{http://www.w3.org/2005/Atom}id").text,
                 "pdf_url": entry.find("{http://www.w3.org/2005/Atom}id").text.replace("abs", "pdf") + ".pdf",
+                # "primary_category": primary_category,
+                # "all_categories": ", ".join(categories),
                 "matched_query": search_query
             }
             entries.append(data)
@@ -95,7 +98,7 @@ def has_any(text, keywords):
     text_lower = str(text).lower()
     return any(keyword.lower() in text_lower for keyword in keywords)
 
-# New function to find false positives
+# Check for false positives
 def find_false_positives(df: pd.DataFrame, first_list: list, second_list: list) -> pd.DataFrame:
     """
     Identifies and returns papers that do not contain keywords from both lists.
